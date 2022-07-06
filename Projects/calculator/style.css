@@ -11,7 +11,7 @@
 }
 #box{
     border: 2px solid black;
-    width: 300px;
+    width: 290px;
     border-radius: 10px;
     margin: auto;
     height: 400px;
@@ -55,5 +55,8 @@
     background-color: rgb(251, 183, 11);
     color: black;
     font-weight: 600;
+}
+#keys #rd{
+    background-color: red;
 }
 
