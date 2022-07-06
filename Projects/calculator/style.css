@@ -21,8 +21,10 @@
 #display{
     border: 1px solid rgb(251, 183, 11);
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
+    padding: 8px;
+    overflow: hidden;
     font-size: 40px;
     height: 80px;
     border-radius: 10px;

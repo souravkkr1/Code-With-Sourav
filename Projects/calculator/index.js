@@ -10,11 +10,16 @@ function myCal(event){
    
 
     if(target=="C"){
-        document.querySelector("#display").innerText="";
+        document.querySelector("#display").innerText="0";
         bag="";
     }else if(target=="="){
-        let res=eval(bag);
-        document.querySelector("#display").innerText=res;
+        if(bag===""){
+            document.querySelector("#display").innerText=0;
+        }else{
+            let res=eval(bag);
+            document.querySelector("#display").innerText=res;
+        }
+        
     }else{
         bag=bag+target;
         document.querySelector("#display").innerText=bag;
