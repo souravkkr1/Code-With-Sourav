@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#heading{
+    /* border: 2px solid red; */
+    text-align: center;
+    color: rgb(251, 183, 11);
+    margin: 30px 0;
+}
+#box{
+    border: 2px solid black;
+    width: 300px;
+    border-radius: 10px;
+    margin: auto;
+    height: 400px;
+    padding: 40px;
+    background-color: rgb(0, 0, 0);
+}
+#display{
+    border: 1px solid rgb(251, 183, 11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: rgb(58, 57, 57);
+    color: white;
+}
+
+#keys{
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#keys > div{
+    /* border: 2px solid green; */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(58, 57, 57);
+}
+
+#keys .sign{
+    background-color: rgb(251, 183, 11);
+    color: black;
+    font-weight: 600;
+}
+
