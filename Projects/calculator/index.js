@@ -7,8 +7,6 @@ let bag="";
 
 function myCal(event){
     let target=event.target.innerText;
-   
-
     if(target=="C"){
         document.querySelector("#display").innerText="0";
         bag="";
@@ -24,4 +22,5 @@ function myCal(event){
         bag=bag+target;
         document.querySelector("#display").innerText=bag;
     }
+
 }
