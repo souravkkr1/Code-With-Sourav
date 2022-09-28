@@ -1,0 +1,73 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+.grass, .sky, .road{
+    position: relative;
+}
+.sky{
+    background-color: lightblue;
+    height: 40%;
+}
+.grass{
+    background-color: seagreen;
+    height: 25%;
+}
+.road{
+    background-color: dimgray;
+    height: 35%;
+    box-sizing: border-box;
+    border-top: 10px solid gray;
+    border-bottom: 10px solid gray;
+    width: 100%;
+}
+.lines{
+    box-sizing: border-box;
+    border: 5px dashed white;
+    height: 0px;
+    width: 100%;
+    position: absolute;
+    top: 45%;
+}
+
+/* Elements to Animate */
+
+.mario{
+    position: absolute;
+    top: -40px;
+    left: 0px;
+    animation: drive 3s both 2s infinite linear;
+}
+.luigi{
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    animation: drive 5s both 2s infinite linear;
+}
+.clouds{
+    position: absolute;
+}
+.clouds:nth-child(1){
+    width: 200px;
+    top: 120px;
+    opacity: 0.5;
+    animation: wind 80s linear infinite reverse;
+}
+.clouds:nth-child(2){
+    width: 300px;
+    top: 0;
+    animation: wind 50s linear infinite reverse;
+}
+
+/* Key Frames */
+
+@keyframes drive {
+    from{ transform: translateX(-200px);}
+    to{ transform: translateX(1200px);}
+}
+@keyframes wind {
+    from{left: -300px}
+    to{left: 100%}
+}
