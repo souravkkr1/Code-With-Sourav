@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+nav{
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+    font-size: 14px;
+}
+.link{
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    padding: 10px;
+    font-size: 14px;
+}
+nav > a > img {
+    width: 35px;
+}
+nav > button{
+    padding: 10px 20px;
+    background-color: rgb(25, 116, 251);
+    color: white;
+    border: none;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.grid-box{
+    /* border: 2px solid red; */
+    height: 300px;
+    width: auto;
+    position: absolute;
+    top: 7%;
+    right: 2%;
+    /* background-color: gray; */
+    border-radius: 8px;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(3,1fr);
+    padding: 40px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.grid-box > img{
+    width: 50px;
+    border-radius: 50%;
+    /* background-color: black; */
+}
+
+#main{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+#main > img{
+    width: 280px;
+}
+#main > input{
+    padding: 15px 10px;
+    width: 600px;
+    border-radius: 60px;
+    border: 1px solid grey;
+    margin: 30px 0;
+    text-align: center;
+}
+#main > div >button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(51, 51, 51);
+}
+#text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin: 20px 0;
+}
+#lang > a{
+    font-size: 14px;
+    text-decoration: none;
+}
+footer{
+    background-color: #f2f2f2;
+    font-size: 14px;
+}
+footer > #top{
+    color: rgb(102, 101, 101);
+    padding: 10px;
+}
+footer > #bottom{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* height: 40px; */
+    border: 1px solid #dadce0;
+    padding: 10px;
+}
+footer > #bottom > #left > a{
+    text-decoration: none;
+    color: rgb(102, 101, 101);
+    margin-right: 20px;
+}
+footer > #bottom > #right > a{
+    text-decoration: none;
+    color: rgb(102, 101, 101);
+    margin-right: 20px;
+}
+footer > #bottom > #right{
+    display: flex;
+}
