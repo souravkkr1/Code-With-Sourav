@@ -2,8 +2,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 /* Utilities */
+:root{
+    --primary-green:#4AAB3D;
+    --heading:black;
+}
+.sub-heading{
+    color: #4AAB3D;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.heading{
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    padding-right: 20px;
+}
 
-
+/* Default */
 *{
     margin: 0;
     padding: 0;
@@ -14,26 +31,134 @@
 /* >>>> slider.css */
 
 /* Section 2 */
-/*  */
+/* >>>> ENhanced Strategy */
 
-
-
-
-
-
-/* Section 1 */
-/* >>>> Black box image boxes */
-
-
-/* .section1{ */
+.section2{
+    /* border: 1px solid blue; */
+    margin: 100px 0;
+    height: auto;
+}
+.enhanced{
     /* border: 1px solid red; */
-    /* width: 100%;
+    height: 100%;
+    width: 1248px;
+    margin: auto;
+}
+.enhanced-heading{
+    /* border: 1px solid green; */
+    text-align: center;
+}
+.enhanced-content{
+    /* border: 1px solid yellow; */
+    margin-top: 40px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.enhanced-left{
+    /* border: 1px solid green; */
+    border-radius: 20px;
+    height: auto;
+    width: 35%;
+    background-image: url(https://demo.cmssuperheroes.com/themeforest/solatec/wp-content/uploads/solatec-01-440x610.jpg);
+}
+.enhanced-right{
+    /* border: 1px solid blue; */
+    height: 100%;
+    width: 60%;
+}
+.enhanced-right > div{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display: flex;
+    padding: 30px;
+    /* margin: 10px 0; */
+    border-radius: 10px;
+    /* height: 33%; */
+}
+.enhanced-right > div:nth-child(2){
+    margin: 30px 0;
+}
+.enhanced-right > div > i{
+    font-size: 35px;
+}
+.enhanced-right > div > div{
+    /* padding: 0 0 0 20px; */
+}
+.enhanced-right > div > div > h2{
+    padding: 0 30px;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.enhanced-right > div > div > p{
+    padding: 0 30px;
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+}
+
+/* Section 3 */
+/* >>>> How Arad Chain will */
+.section3{
+    border: 1px solid red;
+    width: 100%;
     height: 100%;
     background-image: url(https://demo.cmssuperheroes.com/themeforest/solatec/wp-content/uploads/bg-black-with-line.jpg);
-} */
-/* .top{ */
+}
+.how-will{
+    border: 1px solid black;
+    width: 1248px;
+    /* margin: auto; */
+    margin: 100px auto;
+    display: flex;
+}
+.how-will > .left{
+    border: 1px solid blue;
+    width: 50%;
+    padding-right: 150px;
+}
+.how-will > .left > h1{
+    color: white;
+}
+.how-will > .left > p:nth-child(3){
+    margin-top: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.how-will > .right{
+    border: 1px solid blue;
+    width: 50%;
+}
+
+/* Section 4 */
+/* >>>>> Roadmap */
+.section4{
+    border: 1px solid black;
+    width: 100%;
+    height: 500px;
+    margin: 100px 0;
+}
+.roadmap{
+    border: 1px solid red;
+    width: 1248px;
+    margin: auto;
+}
+.roadmap-heading{
+    text-align: center;
+}
+
+
+
+/* Section 5 */
+/* >>>> Discover the Power */
+.section5{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    background-image: url(https://demo.cmssuperheroes.com/themeforest/solatec/wp-content/uploads/bg-black-with-line.jpg);
+}
+.top{
     /* border: 1px solid white; */
-    /* height: 100%;
+    height: 100%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     flex-direction: column;
@@ -41,61 +166,52 @@
     justify-content: center;
     padding: 60px 0;
 }
-.top > .left{ */
+.top > .left{
     /* border: 1px solid white; */
-/* }
-.top > .left > p{
-    color: #4AAB3D;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    padding-bottom: 10px;
 }
 .top > .left > h1{
     color: white;
-    font-family: 'Rubik', sans-serif;
-    font-size: 34px;
-    font-weight: 400;
-    padding-right: 20px;
 }
-.blackBox{ */
+.discover{
     /* border: 1px solid black; */
-    /* max-width:1248px ;
+    max-width:1248px ;
     margin: auto;
     padding: 100px 0;
 }
-.mid{ */
-    /* border: 1px solid yellow; */
-    /* display: flex;
+.mid{
+    border: 1px solid yellow;
+    display: flex;
     flex-wrap: wrap;
-    gap: 30px;
-    justify-content: center;
+    gap: 60px;
+    justify-content: space-between;
 }
-.blackBoxes{ */
+.discoverBoxes{
     /* border: 1px solid green; */
-    /* background-color: white;
+    background-color: white;
     margin-bottom: 0px;
     border-radius: 8px;
-    width: 285px;
+    width: 345px;
 }
-.blackBoxes > img{
+.discoverBoxes > img{
     width: 100%;
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
 }
-.blackBoxes > .content{
+.discoverBoxes > .content{
     padding: 25px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
-.blackBoxes > .content > h2{
+.discoverBoxes > .content > h2{
     font-family: 'Rubik', sans-serif;
     font-size: 21px;
     font-weight: 500;
     margin-bottom: 15px;
+    text-align: left;
 }
-.blackBoxes > .content > p{
+.discoverBoxes > .content > p{
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -103,4 +219,4 @@
     margin-bottom: 5px;
     line-height: 28px;
     filter: contrast(2.77);
-} */
+}

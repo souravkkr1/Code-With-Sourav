@@ -22,25 +22,25 @@ const blackBox = [
         title: "Biometric Authentication Technology",
         desc: "Fingerprint and facial recognition will secure our DApp and ensure that only authorized users can access its features and data."
     },
-    // {
-    //     img: "https://demo.cmssuperheroes.com/themeforest/solatec/wp-content/uploads/solatec-30-570x464.jpg",
-    //     title: "Encourage Public-Private Partnerships",
-    //     desc: "It is vital to build partnerships between governments, industry players, and other stakeholders to address common challenges and create synergies."
-    // },
-    // {
-    //     img: "https://demo.cmssuperheroes.com/themeforest/solatec/wp-content/uploads/solatec-30-570x464.jpg",
-    //     title: "Financial Inclusion",
-    //     desc: "By providing small farmers with access to financial services, enabling them to improve their operations and participate in global markets."
-    // }
+    {
+        img: "https://demo.cmssuperheroes.com/themeforest/solatec/wp-content/uploads/solatec-30-570x464.jpg",
+        title: "Encourage Public-Private Partnerships",
+        desc: "It is vital to build partnerships between governments, industry players, and other stakeholders to address common challenges and create synergies."
+    },
+    {
+        img: "https://demo.cmssuperheroes.com/themeforest/solatec/wp-content/uploads/solatec-30-570x464.jpg",
+        title: "Financial Inclusion",
+        desc: "By providing small farmers with access to financial services, enabling them to improve their operations and participate in global markets."
+    }
 ]
 
 const container = document.querySelector(".mid");
 
 blackBox.map((ele) => {
     let box = document.createElement("div");
-    box.className = "blackBoxes"
-    box.setAttribute("data-aos", "slide-up")
-    box.setAttribute("data-aos-duration", "1000")
+    box.className = "discoverBoxes"
+    // box.setAttribute("data-aos", "slide-up")
+    // box.setAttribute("data-aos-duration", "1000")
     let img = document.createElement("img");
     img.src = ele.img;
     let content = document.createElement("div")
