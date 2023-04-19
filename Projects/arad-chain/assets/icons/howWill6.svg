@@ -1,0 +1,47 @@
+<svg width="94" height="95" viewBox="0 0 94 95" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="94" height="95" fill="url(#pattern0)"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_22_7" transform="scale(0.0106383 0.0105263)"/>
+</pattern>
+<image id="image0_22_7" width="94" height="95" xlink:href="data:image/png;base64,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"/>
+</defs>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</svg>

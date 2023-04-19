@@ -1,0 +1,47 @@
+<svg width="95" height="76" viewBox="0 0 95 76" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="95" height="76" fill="url(#pattern0)"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_22_5" transform="scale(0.0105263 0.0131579)"/>
+</pattern>
+<image id="image0_22_5" width="95" height="76" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF8AAABMCAYAAAALDmvAAAAACXBIWXMAACMoAAAjKAGYmeTtAAAKA0lEQVR4nO2ce5QWZR3HP7sLLriAsKzushqBWC2RQKQQiIBKgMWl0qOJXSAKK08pl/J0sYu3LCurc6qDdVYtrKNhYaEVYFCAQJlRJAKhkAkJsty2Bbn3x3emd3beub7vM+/MC37Oec/MO/O8zzzv75l55nd7noohzU2cAvQG3gIMBi60PgeB6cCz6TUrmA5pN6AAzgIuB8YB/YFzgX5AhUfZZmBY6ZoWj3IRfiO6i98BDAK6R/xdW1INMkHWhX8dMBMYAZxRwO8XGm2NYbIq/JnAjcDAIutZZKAtiZE14U8A7gDeZqCuJcALBupJjCwJfx66403xhMG6EiFI+F2BMcBooAmoA7oBna3zR4D9wCvA34GHgXUFtOFNwAKkKppkreH6jFPh0vPfCHwAGIWEURuzvj8CXwKWRyw/FPg9UBPzOmG8DPQyXKdx7Dv/evSCG15kfaOAZcC3gVkhZXsDfwA6FXlNL1YmUKdxOiC9eb7hem9GQ9SMgDK/xl/wq4EDwPiQ62xHRpabzFq1TiqRkJLgw8C3fM7djb8a+TjS6ycAX/cpsw+YBPQB7vQ4/6+ojUyTSmAF8M2E6p+FrFInDcAtAb95yLHf7HF+G/BWpMMfA76AOsNJS5xGpkWltZ2Lxukk+DHth5c7Qsp3duzXu85tRTbANsexyUBHV7kjMdqXGpWO/VnAfQlcowE5wmyuDinvdCM4hdqCtKM9jmOfBB7DvLZUEipd329AGohprrW2E5FXMgind/K4Y//twG7H988A3/Wpw/2/MolXIycR7g38LXAN8P2I15lgbcfFbFOjtZ0MbHEcvxX4WkAd1RHblSpewm8FZof87mbg58g2GEB4J5wDnEk0o815578eeBCppTZjgdvQuO93kxTiAS05fo/nfcBfA373Dcf+BtQJIwm2bOuJNjY7hf8gMM11fivQE+iLVM2HyOdYhOukTtDYeHvAuYnIknXeyauAy/Aeh19F6mDYeO9u0w6P88+Te+nuBt7vUea/Ea6TOkHC/yXtVTo3Y9DTMdR1/CbkH3JyENhrfcLwCgcG8V6PY1GukzphLuWZwOKA872R9/BG2o/789ELcikaamqteuKO+U4Go2HmbPQEVaF3idf7aYvHscwRJvwlyPqdE1Lue8iS/Sg5dXANMAT4ExKW29L1w+tpfAK4MuLvl9DeFsgsUfThuUQzvt4NrEeZBDabkX4e5wXo1lSmE13wkIyhmAhRjZEb0OMdpv83AD91HdtI9LseNJzYnEE8v9NxZIOUBXEswXtRROsHBHsN13gcWw58KsI1TqKols0MoEfE9oGGx7LQdCA/khWVSqRuXo70987AYTTM3Brwu4XAlIDzj5BzRVQjbashYpu2AudHLJsJCg2gnwB+ZX3icC16IXfxOe+2ZKMK3i5fVpTaAXUY+LjPuSMokGLzvhj1TiTjaSJepOH9mw8843F8ITnjqJZowj+EBP94WMEskpbrdRrt3cUge8BmOOFD4mKk1pal4CE94a8nP3K2zrEfFFdejQLr44H/GG1ViUkzY22nY38/iiXbLEZBnYEoi+F54HdIDS27sd2PNIU/2LG/gvZx1xbkuOuG4gsnS9aqEpIV4W/wKXOgBO1IjbTG/B7AGxzfyyLVwzRpCb8f+ZkJpx1pCf881/fdnqW86YJc1GWRoRBEWmN+T9f3XSHl65FX9UqU0VCFPKytSPt5Eb03NgPPWd8zT1zhvxndcf8o8rpdXd9bA8oOQwES92+6W1u3Z/AE6pBdKFX8GWQbrCVjE+TiCP8WlOAK8GfgfuReLgR3el9QsOXL5As+iErgAusDuRjvbtQpm5DN8CTqnNSIKvz+5AQPcLH1uQq5Cl4q8rpBWQ2DYtbtR531GYoC/IeBvwFPo6Tb3xi6TmSivrT88uSvQGPt1JjXdecEBXXexph1R6UadcQnUIz4BRRPeGdC18ujqteUuijlatHsFS+q0RPQByWtRmELMqBeBT4N/CWg7F40HzdpeqDsu+tRwKcGvSsSwxnJGgG8C6mBW5GjayU5NbAbGj+n4h+TfRY90kHZboUwm+TmEASxCYVP5yVRuS38O4HPeZxvQzMNVyEv5HbreAeUvDoD78d0Hsp42+5xrlAuQJrNhajzxxA/wapQlqGZNttMVloxpLlpENGncK5HHXEv0qlBGQZXoxev+4l4GPgqerGZpg+aMTkJPW2dA0sXz0GUROaVG1oQFUOam36Cd75jGBvQHXEXuZzKLmho+ghwqaPsk+jpWlZ4UwOpR8H82cBFCV3D5m7gsyYqquo1pW40SmyKy9lIW5iDBF2PolFPIxtgAfLZNyK19EMoP38v5jWYNmT4/RD4J1Ip+xi+hs1I9J+KXtehYkhzU08UrIiSQRyFBSi094Dj2KVII7rJ+j4H/5mKprgO+DzSYJJgHvCxYiqwX7gDgUfJWYUm2IkmUDyGEmZtxqGkq00Gr+VHJRoWg2Y/FsNXkAVeELaev5PctMuLMeNw64KGpQ+il2IvNOQ8ZW07kh9EN81J1PFPoXeC6TnHY5CNsjmknCdeGWu90fg8jeQywOzJEm2oI1qsbRvSKg4i89/+fsgq8wqK9+63ysdNDVyD+WW/jiLbKMwzm4fXHf4i0tHvQrrtNZjPButEvGw0NyeQ8A+gDmhBxmAbuQ47bG3brHK7yHfomaAj8Av0Io5F1FzN8cjknk4yC1WcCkwFfmbtd0edf8ijXA2Waztuouy5KN9yMlqH5zVy7EFBomok3D3Iwt+HntQa9LTXAO8BVkZ1rNm0ImfTA8jS3YfW6EnauiwHOiOhr0DC7YeE3QfNnDwPPRFnWttHiomDLkV6ez+0+ERZrHGTMHOt7T0h5QZA4fn5fgxD87Iuo8xy5Q2yDhmsfQPKHAUaTQfQ15Jb22wacriNpUym4xticIQyHYGxccf8OKxD87PuR3p9Nd6rQp2u7EpS+DataBG7H5Fb0aQn5nxJ5cr+UiceLUe2Qj9kRS9CT8XpyFlpZX0dRStQTUIdcTsJx0szSJcspNztAL6IYsgjUC5QKTyeadMpS8v5gu5++wm4Cpnso8lPLzwVqMrCne/Ho6gDzkeLK61LszEJcCLLwrc5AHwHLefYH1mP/061RWY4VA7Cd7IRLWzXF7lw56Nst6SDMknQmrUxPyrHkWNvFYpJNCDLciRaz7kvxcULSsHL5Sp8J8fQ3f8SuYyCaiT8i5Cf6RLgdWTrxb3UtGMty3RFbt1LkAY1FKWA+K0DkSQngbpT4c6PSiuatfIccnVAbpXC4SgYPgh1SNLxidXAntPpzo/KOShANAo9JQNQh5iM/44CVpxOd35UdlkfOzhUgdJeBqDkr9HkolRVXhWEsAhrtv1rwg/nJHKB7EBzw0Byq0d5QI3WpxaFDGvRy91exLUGDWM1KMv5/wt5/w+tp93eLBPXxQAAAABJRU5ErkJggg=="/>
+</defs>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</svg>

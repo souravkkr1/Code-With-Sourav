@@ -4,16 +4,18 @@
 /* Utilities */
 :root{
     --primary-green:#4AAB3D;
-    --heading:black;
+    --heading-black:black;
+    --heading-white:white;
+    --description:gray;
 }
 .sub-heading{
-    color: #4AAB3D;
+    color: var(--primary-green);
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     padding-bottom: 10px;
 }
 .heading{
-    color: black;
+    color: var(--heading-black);
     font-family: 'Rubik', sans-serif;
     font-size: 34px;
     font-weight: 400;
@@ -81,9 +83,9 @@
 .enhanced-right > div > i{
     font-size: 35px;
 }
-.enhanced-right > div > div{
+/* .enhanced-right > div > div{ */
     /* padding: 0 0 0 20px; */
-}
+/* } */
 .enhanced-right > div > div > h2{
     padding: 0 30px;
     font-family: 'Rubik', sans-serif;
@@ -93,7 +95,7 @@
 .enhanced-right > div > div > p{
     padding: 0 30px;
     font-family: 'Roboto', sans-serif;
-    color: gray;
+    color: var( --description);
 }
 
 /* Section 3 */
@@ -105,16 +107,18 @@
     background-image: url(https://demo.cmssuperheroes.com/themeforest/solatec/wp-content/uploads/bg-black-with-line.jpg);
 }
 .how-will{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 1248px;
     /* margin: auto; */
     margin: 100px auto;
     display: flex;
+    flex-direction: column;
 }
 .how-will > .left{
-    border: 1px solid blue;
-    width: 50%;
-    padding-right: 150px;
+    /* border: 1px solid blue; */
+    /* width: 50%; */
+    /* padding-right: 150px; */
+    text-align: center;
 }
 .how-will > .left > h1{
     color: white;
@@ -125,8 +129,49 @@
     font-family: 'Roboto', sans-serif;
 }
 .how-will > .right{
-    border: 1px solid blue;
-    width: 50%;
+    /* border: 1px solid blue; */
+    margin-top: 100px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.howWillBoxes{
+    /* border: 1px solid green; */
+    /* background-color: white; */
+    margin-bottom: 0px;
+    border-radius: 8px;
+    text-align: center;
+    /* width: 365px; */
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+}
+.howWillBoxes > object{
+    width: 25%;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.howWillBoxes > .content{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.howWillBoxes > .content > h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: rgb(158, 158, 158);
+    /* text-align: left; */
+}
+.howWillBoxes > .content > p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(158, 158, 158);
+    margin-bottom: 5px;
+    line-height: 23px;
+    filter: contrast(2.77);
 }
 
 /* Section 4 */
@@ -166,10 +211,15 @@
     justify-content: center;
     padding: 60px 0;
 }
-.top > .left{
+/* .top > .left{ */
     /* border: 1px solid white; */
+/* } */
+.discover > .top > .left > .heading{
+    color: var(--heading-white) !important;
 }
-.top > .left > h1{
+.top > .right > p{
+    font-family: 'Roboto', sans-serif;
+    width: 75%;
     color: white;
 }
 .discover{
@@ -179,7 +229,7 @@
     padding: 100px 0;
 }
 .mid{
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     display: flex;
     flex-wrap: wrap;
     gap: 60px;
@@ -190,7 +240,7 @@
     background-color: white;
     margin-bottom: 0px;
     border-radius: 8px;
-    width: 345px;
+    width: 365px;
 }
 .discoverBoxes > img{
     width: 100%;
@@ -202,21 +252,80 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
 }
 .discoverBoxes > .content > h2{
     font-family: 'Rubik', sans-serif;
     font-size: 21px;
     font-weight: 500;
     margin-bottom: 15px;
-    text-align: left;
+    /* text-align: left; */
 }
 .discoverBoxes > .content > p{
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     font-weight: 400;
-    color: #9B9B9B;
+    color: var( --description);
     margin-bottom: 5px;
-    line-height: 28px;
+    line-height: 23px;
+    filter: contrast(2.77);
+}
+
+/* Section 6 */
+/* >>>> Who can benefit from us */
+.section6{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+}
+.benefit{
+    /* border: 1px solid red; */
+    width: 1248px;
+    margin: 100px auto;
+}
+.benefit-heading{
+    text-align: center;
+}
+.benefit > .bottom{
+    /* border: 1px solid yellow; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+    justify-content: space-between;
+}
+.benefitBoxes{
+    /* border: 1px solid green; */
+    background-color: white;
+    margin-bottom: 0px;
+    border-radius: 8px;
+    width: 365px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.benefitBoxes > img{
+    width: 100%;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.benefitBoxes > .content{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.benefitBoxes > .content > h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    /* text-align: left; */
+}
+.benefitBoxes > .content > p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color:var(--description);
+    margin-bottom: 5px;
+    line-height: 23px;
     filter: contrast(2.77);
 }
