@@ -43,7 +43,7 @@
 .enhanced{
     /* border: 1px solid red; */
     height: 100%;
-    width: 1248px;
+    width: 1100px;
     margin: auto;
 }
 .enhanced-heading{
@@ -108,7 +108,7 @@
 }
 .how-will{
     /* border: 1px solid black; */
-    width: 1248px;
+    width: 1100px;
     /* margin: auto; */
     margin: 100px auto;
     display: flex;
@@ -184,7 +184,7 @@
 }
 .roadmap{
     /* border: 1px solid red; */
-    width: 1248px;
+    width: 1100px;
     margin: auto;
 }
 .roadmap-heading{
@@ -213,7 +213,7 @@
 .timeline::before {
     content: "";
     position: absolute;
-    right: 60.1%;
+    right: 60.3%;
     /* transform: translateX(-50%); */
     width: 3px;
     height: 100%;
@@ -264,7 +264,8 @@
     border-radius: 20px;
     position: relative;
     left: 41%;
-    width: 60%;
+    width: 55%;
+    /* text-align: center; */
 }
 .content1 > h2 {
     font-family: 'Rubik', sans-serif;
@@ -274,6 +275,7 @@
     list-style-type: disc;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 5px;
+    margin-left: 20px;
 }
 
 
@@ -308,7 +310,7 @@
 }
 .discover{
     /* border: 1px solid black; */
-    max-width:1248px ;
+    max-width:1100px ;
     margin: auto;
     padding: 100px 0;
 }
@@ -324,7 +326,7 @@
     background-color: white;
     margin-bottom: 0px;
     border-radius: 8px;
-    width: 365px;
+    width: 325px;
 }
 .discoverBoxes > img{
     width: 100%;
@@ -364,7 +366,7 @@
 }
 .benefit{
     /* border: 1px solid red; */
-    width: 1248px;
+    width: 1100px;
     margin: 100px auto;
 }
 .benefit-heading{
@@ -424,7 +426,7 @@
 }
 .statistics{
     /* border: 1px solid red; */
-    /* width: 1248px;
+    /* width: 1100px;
     margin: 100px auto;
     padding: 40px 0;
     display: flex;
