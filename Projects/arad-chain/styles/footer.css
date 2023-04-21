@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Rubik:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* Utilities */
+:root{
+    --primary-green:#4AAB3D;
+    --heading-black:black;
+    --heading-white:white;
+    --description:gray;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer{
+    border: 1px solid #616161;
+    height: auto;
+    width: 100%;
+    background-color: #161616;
+}
+.footer-container{
+    /* border: 1px solid yellow; */
+    height: 100%;
+    width: 1248px;
+    margin: 100px auto;
+    display: flex;
+    gap: 20px;
+}
+.footer-container > div:nth-child(1){
+    /* border: 1px solid white; */
+    width: 30%;
+    padding-right: 20px;
+}
+.footer-container > div:nth-child(2){
+    /* border: 1px solid white; */
+    width: 15%;
+}
+.footer-container > div:nth-child(3){
+    /* border: 1px solid white; */
+
+    width: 15%;
+}
+.footer-container > div:nth-child(4){
+    /* border: 1px solid white; */
+
+    width: 15%;
+}
+.footer-container > div:nth-child(5){
+    /* border: 1px solid white; */
+
+    width: 25%;
+}
+footer h3{
+    color: white;
+    margin-bottom: 50px;
+    font-family: 'Rubik', sans-serif;
+}
+footer p, a{
+    color: var(--description);
+    text-decoration: none;
+    line-height: 22px;
+    margin: 0 0 10px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+.contact > div > a:nth-child(2){
+    color: var(--primary-green);
+    font-size: 25px;
+    font-weight: 600;
+    /* margin-top: 20px !important; */
+}
+.company > div, .phases > div {
+    display: flex;
+    flex-direction: column;
+}
+.contact-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.contact-btn > button{
+    all:unset;
+    width: 120px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    color: var(--heading-white);
+    background-color: var(--primary-green);
+    border-radius: 10px;
+}

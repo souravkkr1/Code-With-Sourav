@@ -177,20 +177,104 @@
 /* Section 4 */
 /* >>>>> Roadmap */
 .section4{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 100%;
-    height: 500px;
+    height: auto;
     margin: 100px 0;
 }
 .roadmap{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 1248px;
     margin: auto;
 }
 .roadmap-heading{
-    text-align: center;
+    /* border: 1px solid red; */
+    width: 57%;
+    margin: auto;
+    /* text-align: center; */
 }
-
+.roadmap-heading > p:nth-child(2){
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-green);
+}
+.timeline {
+    /* border: 1px solid blue; */
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    /* padding-left: 500px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+/* Line */
+.timeline::before {
+    content: "";
+    position: absolute;
+    right: 60.1%;
+    /* transform: translateX(-50%); */
+    width: 3px;
+    height: 100%;
+    background-color: #4aab3d87;
+}
+.timeline > ul {
+    list-style-type: none;
+    /* width: 100px; */
+}
+/* Circle */
+.timeline > ul > li::before {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    background-color: #329e28;
+    border-radius: 50%;
+    right: 59.38%;
+    margin-top: 15px;
+    /* bottom: 12px; */
+    transition: 0.5s;
+}
+.timeline > ul > li .time {
+    position: absolute;
+    right: 65%;
+    /* top: 3px; */
+    background-color: #fff;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 10px 10px;
+    width: 170px;
+    height: 50px;
+    line-height: 28px;
+    border-radius: 28px;
+    box-shadow: 0px 0px 0px 1px;
+    /* margin-top: 10px; */
+}
+.time > span > i{
+    color: var(--primary-green);
+    margin-right: 10px;
+}
+.content1 {
+    background: var(--primary-green);
+    margin-bottom: 40px;
+    padding: 30px;
+    color: white;
+    border-radius: 20px;
+    position: relative;
+    left: 41%;
+    width: 60%;
+}
+.content1 > h2 {
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 10px;
+}
+.content1 > ul > li {
+    list-style-type: disc;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 5px;
+}
 
 
 /* Section 5 */
@@ -329,3 +413,28 @@
     line-height: 23px;
     filter: contrast(2.77);
 }
+
+/* Section 7 */
+/* >>>> Stistics */
+/* .section7{ */
+    /* border: 1px solid red; */
+    /* width: 100%;
+    height: 100%;
+    background-image: url(https://demo.cmssuperheroes.com/themeforest/solatec/wp-content/uploads/bg-black-with-line.jpg);
+}
+.statistics{
+    /* border: 1px solid red; */
+    /* width: 1248px;
+    margin: 100px auto;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.statistics p{
+   color: var(--primary-green);
+}
+.statistics h1{
+   color: var(--heading-white);
+   font-size: 50px;
+}  */
