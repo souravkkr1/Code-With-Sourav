@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/navbar.css" />
+    <link rel="stylesheet" href="styles/about.css" />
     <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>About</title>
   </head>
   <body>
@@ -19,13 +22,60 @@
       </div>
 
       <!-- Section2: Breadcrumb -->
-      <div class="section2">
+      <div class="bread-section2">
         <div class="breadcrumb">
           <ol>
             <li><a href="/">Home</a></li>
             <li>/</li>
             <li>About</li>
           </ol>
+        </div>
+      </div>
+
+      <!-- Section3: About desc -->
+      <div class="section3">
+        <div class="about-desc">
+          <div class="desc-left">
+            <p class="sub-heading">About Us</p>
+            <h1 class="heading">
+              We Believe In A Clean, Sustainable Environment
+            </h1>
+            <p>
+              We are a group of like-minded technologists, advisors, developers,
+              and Islamic scholars who believe in utilizing technology to
+              improve people's lives worldwide, regardless of race, color, or
+              creed. Our goal is to provide education, resources, and support to
+              foster the use of AradChain’s Blockchain-powered technology for
+              social good so we can all tackle some of the world's most pressing
+              social and environmental issues, food wastage, global hunger and
+              poverty.
+            </p>
+          </div>
+          <div class="desc-right"></div>
+        </div>
+      </div>
+
+      <!-- Section3: Our Goal -->
+      <div class="section4">
+        <div class="our-goal">
+          <h1>Our Goal</h1>
+          <p>
+            Our goal is to provide education, resources, and support to foster
+            the use of AradChain’s Blockchain-powered technology for social good
+            so we can all tackle some of the world's most pressing social and
+            environmental issues, food wastage, global hunger and poverty.
+          </p>
+        </div>
+      </div>
+
+      <!-- Section4: Our Team -->
+      <div class="section5">
+        <div class="our-team">
+          <div class="top">
+            <h1 class="sub-heading">Our Team</h1>
+            <h1 class="heading">Our Professional Team</h1>
+          </div>
+          <div class="bottom"></div>
         </div>
       </div>
     </main>
@@ -41,5 +91,6 @@
       const container = document.querySelector("footer");
       container.innerHTML = footer();
     </script>
+    <script src="./scripts/about.js"></script>
   </body>
 </html>

@@ -1,0 +1,90 @@
+h1, h2{
+    font-family: 'Rubik', sans-serif;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+}
+
+/* Section 3 */
+/* >>>>> Description */
+
+.section3{
+    border: 1px solid red;
+    width: 100%;
+}
+.about-desc{
+    border: 1px solid black;
+    width: 1100px;
+    margin: 100px auto;
+    display: flex;
+}
+.desc-left{
+    width: 50%;
+    border: 1px solid green;
+    padding-right: 50px;
+}
+.desc-left > h1{
+    margin: 20px 0;
+}
+/* .desc-left > p:last-child{
+} */
+.desc-right{
+    border: 1px solid green;
+    width: 50%;
+}
+
+/* Section 4 */
+/* >>>> Our Goal */
+
+.section4{
+    border: 1px solid blue;
+    width: 100%;
+    background-image: url(../assets/images/black-back.webp);
+}
+.our-goal{
+    width: 1100px;
+    margin: 100px auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.our-goal > h1{
+    border-left: 10px solid var(--primary-green);
+    padding-left:30px ;
+}
+.our-goal > p{
+    width: 70%;
+}
+
+/* Section 5 */
+/* >>>> Our Team */
+
+.section5{
+    border: 1px solid blue;
+    width: 100%;
+}
+.our-team{
+    width: 1100px;
+    margin: 100px auto;
+}
+.our-team > .top{
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.our-team > .bottom{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 70px;
+    border-radius: 10px;
+    margin: 100px 0;
+}
+.our-team > .bottom > div > img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+
