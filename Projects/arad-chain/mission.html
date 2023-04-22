@@ -1,22 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/footer.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/navbar.css" />
+    <link rel="stylesheet" href="styles/mission.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
     <title>Mission</title>
-</head>
-<body>
-    
-    <footer>
-      
-    </footer>
-    
+  </head>
+  <body>
+    <nav></nav>
+    <main>
+      <!-- Section1: Jumbotron -->
+      <div class="section1">
+        <div class="jumbotron">
+          <h1>Our Mission</h1>
+        </div>
+      </div>
+
+      <!-- Section2: Breadcrumb -->
+      <div class="section2">
+        <div class="breadcrumb">
+          <ol>
+            <li><a href="/">Home</a></li>
+            <li>/</li>
+            <li>Mission</li>
+          </ol>
+        </div>
+      </div>
+
+      <!-- Section3: Vision -->
+      <div class="section3">
+        <div class="sec3-container">
+          <!-- Mission -->
+          <div class="mission">
+            <div class="mission-top">
+              <p class="sub-heading">Our</p>
+              <h1 class="heading">Mission</h1>
+            </div>
+            <div class="mission-bottom">
+              <div class="left">
+                <p>
+                  An important part of our initiative is to promote strong, trusting relationships between consumers and vendors by insisting on honesty and transparency in all aspects of the creation of products and encouraging a healthy space of interaction between the customer and the producer. On a daily basis, we strive to improve opportunities for all in any given region by promoting local economic development as well as social and community building through educational and friendly activities.
+                </p>
+              </div>
+              <div class="right">
+                <img src="assets/images/vision.png" alt="" />
+              </div>
+          </div>
+          <!-- Vision -->
+          <div class="vision">
+            <div class="vision-top">
+              <p class="sub-heading">Our</p>
+              <h1 class="heading">Vision</h1>
+            </div>
+            <div class="vision-bottom">
+              <div class="left">
+                <p>
+                  AradChain was established to provide a range of fully
+                  comprehensive blockchain, A.I and IoT supply chain solutions to
+                  governments, corporates and of course, individuals. Our goal is
+                  to provide a decentralized blockchain solution for agricultural
+                  supply chains where local farmers, oracles, and entrepreneurs
+                  can sell and buy directly without any intermediaries. We aim to
+                  promote the local production of agricultural products. And with
+                  the help of a blockchain-based ecosystem, we strive to improve
+                  the variety, taste, and freshness of products available to
+                  customers in a given region.
+                </p>
+              </div>
+              <div class="right">
+                <img src="assets/images/vision.png" alt="" />
+              </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer></footer>
+
     <script type="module">
+      import navbar from "./components/navbar.js";
+      const navContainer = document.querySelector("nav");
+      navContainer.innerHTML = navbar();
+
       import footer from "./components/footer.js";
       const container = document.querySelector("footer");
       container.innerHTML = footer();
     </script>
-</body>
+  </body>
 </html>

@@ -1,8 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Rubik:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* Utilities */
+:root{
+    --primary-green:#4AAB3D;
+    --heading-black:black;
+    --heading-white:white;
+    --description:gray;
+}
+.sub-heading{
+    color: var(--primary-green);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.heading{
+    color: var(--heading-black);
+    font-family: 'Rubik', sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    padding-right: 20px;
+}
+.green-btn{
+    padding: 15px 30px;
+    background-color: var(--primary-green);
+    color: white;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.white-btn{
+    padding: 15px 30px;
+    background-color: white;
+    color: var(--primary-green);
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+/* Section 1 */
+/* >>>>> Jumbotron */
+
+.section1{
+    /* border: 1px solid red; */
+    height: 300px;
+    background-image: url(../assets/images/black-back.webp);
+    background-position: center;
+}
+.jumbotron{
+    width: 1100px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.jumbotron > h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* Section 2 */
+/* >>>> Breadcrumb */
+.section2{
+    border: 1px solid grey;
+    width: 100%;
+}
+.breadcrumb{
+    width:1100px ;
+    margin: 10px auto;
+}
+.breadcrumb > ol {
+    display: flex;
+    align-items: center;
+}
+.breadcrumb > ol > li{
+    list-style: none;
+    margin-right: 30px;
+}
+.breadcrumb > ol > li:last-child{
+    color: var(--primary-green);
+}
+
+/* Default */
 *{
     margin: 0;
     border: 0;
     box-sizing: border-box;
 }
 nav{
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    height: auto;
+}
+.navbar{
+    /* border: 1px solid green; */
+    height: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+}
+.links> ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links > ul > li {
+    /* height: 20%; */
+    list-style: none;
+}
+
+.links > ul > li > a{
+    border-bottom: 4px solid rgba(0, 0, 0, 0); 
+    padding: 20px;
+    text-decoration: none;
+    padding: 41px 20px;
+}
+.links > ul > li > a:hover{
+    border-bottom: 4px solid var(--primary-green);
 }

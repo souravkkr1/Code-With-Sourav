@@ -1,6 +1,6 @@
 function footer() {
-    return (
-        `
+  return (
+    `
         <div class="footer-container">
         <div class="contact">
           <h3>Quick Contact</h3>
@@ -47,16 +47,14 @@ function footer() {
         </div>
 
         <div class="contact-btn">
-          <button>Contact</button>
+          <button class="green-btn">Contact</button>
           <div class="social-icons">
 
           </div>
         </div>
-
-
       </div>
         `
-    )
+  )
 }
 
 export default footer;

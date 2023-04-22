@@ -83,12 +83,4 @@ footer p, a{
     align-items: flex-end;
 }
 .contact-btn > button{
-    all:unset;
-    width: 120px;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    padding: 20px;
-    color: var(--heading-white);
-    background-color: var(--primary-green);
-    border-radius: 10px;
 }

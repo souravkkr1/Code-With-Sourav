@@ -4,16 +4,38 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/navbar.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
     <title>Contact</title>
   </head>
   <body>
+    <nav></nav>
+    <main>
+      <!-- Section1: Jumbotron -->
+      <div class="section1">
+        <div class="jumbotron">
+          <h1>Contact Us</h1>
+        </div>
+      </div>
 
-    <footer>
-      
-    </footer>
-    
+      <!-- Section2: Breadcrumb -->
+      <div class="section2">
+        <div class="breadcrumb">
+          <ol>
+            <li><a href="/">Home</a></li>
+            <li>/</li>
+            <li>Contact</li>
+          </ol>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+
     <script type="module">
+      import navbar from "./components/navbar.js";
+      const navContainer = document.querySelector("nav");
+      navContainer.innerHTML = navbar();
+
       import footer from "./components/footer.js";
       const container = document.querySelector("footer");
       container.innerHTML = footer();
