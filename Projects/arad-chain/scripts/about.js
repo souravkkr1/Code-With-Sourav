@@ -2,55 +2,55 @@ const team = [
     {
         name: "Gurmit Singh",
         role: "CEO & Co-Founder",
-        image: "https://scontent.fixr3-3.fna.fbcdn.net/v/t39.30808-6/307279995_5367925263320551_1800977647927307679_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=cqRx2WSKSiwAX_S00q8&_nc_ht=scontent.fixr3-3.fna&oh=00_AfASBzsIqDqri_T7Ugk0KrcPNZxTNjszawXysizGuFa1_A&oe=64496739",
+        image: "assets/team/gurmitSingh.jpg",
         linkedin: "https://www.linkedin.com/in/gurmitsingh1"
     },
     {
         name: "Noman Haq",
         role: "COO & Co-Founder",
-        image: "https://scontent.fixr3-3.fna.fbcdn.net/v/t39.30808-6/307279995_5367925263320551_1800977647927307679_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=cqRx2WSKSiwAX_S00q8&_nc_ht=scontent.fixr3-3.fna&oh=00_AfASBzsIqDqri_T7Ugk0KrcPNZxTNjszawXysizGuFa1_A&oe=64496739",
+        image: "assets/team/nomanHaq.jpg",
         linkedin: "https://www.linkedin.com/in/nomanhaq12"
     },
     {
         name: "Sayyid Mansoob Hasan",
         role: "Financial Advisor/ CFO",
-        image: "https://scontent.fixr3-3.fna.fbcdn.net/v/t39.30808-6/307279995_5367925263320551_1800977647927307679_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=cqRx2WSKSiwAX_S00q8&_nc_ht=scontent.fixr3-3.fna&oh=00_AfASBzsIqDqri_T7Ugk0KrcPNZxTNjszawXysizGuFa1_A&oe=64496739",
+        image: "assets/team/mansoobHasan.jpg",
         linkedin: ""
     },
     {
         name: "Azim BaiG",
         role: "Blockchain Developer",
-        image: "https://scontent.fixr3-3.fna.fbcdn.net/v/t39.30808-6/307279995_5367925263320551_1800977647927307679_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=cqRx2WSKSiwAX_S00q8&_nc_ht=scontent.fixr3-3.fna&oh=00_AfASBzsIqDqri_T7Ugk0KrcPNZxTNjszawXysizGuFa1_A&oe=64496739",
+        image: "assets/team/azimBaig.jpg",
         linkedin: ""
     },
     {
         name: "Arslan Haq",
         role: "Graphic Designer",
-        image: "https://scontent.fixr3-3.fna.fbcdn.net/v/t39.30808-6/307279995_5367925263320551_1800977647927307679_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=cqRx2WSKSiwAX_S00q8&_nc_ht=scontent.fixr3-3.fna&oh=00_AfASBzsIqDqri_T7Ugk0KrcPNZxTNjszawXysizGuFa1_A&oe=64496739",
+        image: "assets/team/arslanHaq.jpg",
         linkedin: ""
     },
     {
         name: "Ibrahim Abdullah",
         role: "Javascript Developer/ Web Developer",
-        image: "https://scontent.fixr3-3.fna.fbcdn.net/v/t39.30808-6/307279995_5367925263320551_1800977647927307679_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=cqRx2WSKSiwAX_S00q8&_nc_ht=scontent.fixr3-3.fna&oh=00_AfASBzsIqDqri_T7Ugk0KrcPNZxTNjszawXysizGuFa1_A&oe=64496739",
+        image: "assets/team/ibrahimAbdullah.jpg",
         linkedin: ""
     },
     {
         name: "Tayyaba Khalil",
         role: "Project Manager/ Backend Engineer",
-        image: "https://scontent.fixr3-3.fna.fbcdn.net/v/t39.30808-6/307279995_5367925263320551_1800977647927307679_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=cqRx2WSKSiwAX_S00q8&_nc_ht=scontent.fixr3-3.fna&oh=00_AfASBzsIqDqri_T7Ugk0KrcPNZxTNjszawXysizGuFa1_A&oe=64496739",
+        image: "assets/team/tayyabaKhalil.jpg",
         linkedin: ""
     },
     {
         name: "Abdur Rehman",
         role: "Quality Assurance",
-        image: "https://scontent.fixr3-3.fna.fbcdn.net/v/t39.30808-6/307279995_5367925263320551_1800977647927307679_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=cqRx2WSKSiwAX_S00q8&_nc_ht=scontent.fixr3-3.fna&oh=00_AfASBzsIqDqri_T7Ugk0KrcPNZxTNjszawXysizGuFa1_A&oe=64496739",
+        image: "assets/team/abdurRehman.jpeg",
         linkedin: ""
     },
     {
         name: "Sachin Salvi",
         role: "SMM Manager",
-        image: "https://scontent.fixr3-3.fna.fbcdn.net/v/t39.30808-6/307279995_5367925263320551_1800977647927307679_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=cqRx2WSKSiwAX_S00q8&_nc_ht=scontent.fixr3-3.fna&oh=00_AfASBzsIqDqri_T7Ugk0KrcPNZxTNjszawXysizGuFa1_A&oe=64496739",
+        image: "assets/team/sachin.jpg",
         linkedin: ""
     },
 ]

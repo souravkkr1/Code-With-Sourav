@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/navbar.css" />
+    <link rel="stylesheet" href="styles/blogs.css" />
     <link rel="stylesheet" href="styles/footer.css" />
     <title>Blogs</title>
   </head>
@@ -12,7 +13,7 @@
     <nav></nav>
     <main>
       <!-- Section1: Jumbotron -->
-      <div class="section1">
+      <div class="section1-jumbo">
         <div class="jumbotron">
           <h1>News & Blogs</h1>
         </div>
@@ -28,6 +29,11 @@
           </ol>
         </div>
       </div>
+
+      <!-- Section3: Blogpost -->
+      <div class="section3">
+        <div class="blogpost"></div>
+      </div>
     </main>
     <footer></footer>
 
@@ -40,5 +46,6 @@
       const container = document.querySelector("footer");
       container.innerHTML = footer();
     </script>
+    <script src="scripts/blogs.js"></script>
   </body>
 </html>

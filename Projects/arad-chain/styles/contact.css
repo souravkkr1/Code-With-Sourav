@@ -1,0 +1,74 @@
+/* Section: 3 */
+/* >>>>> Contact Form*/
+
+.section3{
+    /* border: 1px solid red; */
+    width: 100%;
+}
+.contact-form{
+    width: 1100px;
+    margin: 100px auto;
+    display: flex;
+    gap: 0 100px;
+}
+.contact-form > .left{
+    /* border: 1px solid black; */
+    width: 30%;
+    background-color: #e4f2e2;
+    padding: 40px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.contact-form > .left  h4{
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+.contact-form > .left  p, .contact-form > .left  a{
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+    font-size: 14px;
+}
+.contact-form > .left button{
+    margin-top: 10px;
+}
+.contact-form > .right{
+    /* border: 1px solid black; */
+    width: 70%;
+}
+.contact-form > .right{
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.contact-form > .right > p{
+    color: gray;
+    font-size: 15px;
+}
+.contact-form > .right > form{
+    /* border: 1px solid green; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact-form > .right > form > div{
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    border: 1px solid rgb(234, 232, 232);
+    padding: 14px 20px;
+    width: 48.5%;
+    border-radius: 7px;
+}
+textarea{
+    border: 1px solid rgb(234, 232, 232);
+    padding: 14px 20px;
+    border-radius: 7px;
+    font-family: 'Roboto', sans-serif;
+}

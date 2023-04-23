@@ -1,5 +1,5 @@
 function navbar() {
-    return `
+  return `
     <div class="navbar">
         <div class="logo">
           <a href="/"><img src="assets/images/header-logo.png" alt=""></a>
@@ -11,9 +11,7 @@ function navbar() {
             <li><a href="registration.html">Registration</a></li>
             <li><a href="blogs.html">Blogs</a></li>
             <li><a href="about.html">About</a></li>
-            <li>
-              <a href="contact.html"><button class="green-btn">Contact</button></a>
-            </li>
+            <a href="contact.html"><button class="green-btn">Contact</button></a>
           </ul>
         </div>
       </div>`

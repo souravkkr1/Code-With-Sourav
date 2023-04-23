@@ -1,0 +1,46 @@
+/* Section: 3 */
+/* >>>>> Blog Posts */
+
+.section3{
+    /* border: 1px solid red; */
+    width: 100%;
+}
+.blogpost{
+    /* border: 1px solid black; */
+    width: 1100px;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+.blogpost img{
+    width: 100%;
+    border-radius: 7px;
+}
+.blogpost > div {
+    border-radius: 7px;
+}
+.blogpost > div:hover {
+    border-bottom: 4px solid var(--primary-green);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.blogpost > div > div {
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.blogpost > div > div > p:nth-child(1) {
+   color: gray;
+   font-size: 13px;
+}
+.blogpost > div > div>button {
+   width: 50%;
+   font-weight: 600;
+   cursor: pointer;
+   margin-bottom: 30px;
+}
+.blogpost > div > div>button:hover {
+   border: 1.6px solid var(--primary-green);
+   color: var(--primary-green);
+}

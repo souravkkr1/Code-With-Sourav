@@ -7,60 +7,23 @@
     width: 100%;
     /* border: 1px solid black; */
 }
-.mission-top{
-    border-left: 10px solid var(--primary-green);
-    padding-left: 10px;
-}
-.vision-top{
-    border-right: 10px solid var(--primary-green);
-    padding-right: 10px;
-}
-.section3 img{
-    border-radius: 10px;
-}
-.sec3-container{
+.mission-content{
+    /* border: 1px solid black; */
     width: 1100px;
-    margin: 100px auto;
+    margin: auto;
+    display: flex;
+}
+.mission-content > div{
     /* border: 1px solid red; */
 }
-.mission-bottom, .vision-bottom{
-    margin-top: 40px;
-    display: flex;
+.mission-content > .left{
+    width: 60%;
 }
-.mission-bottom > div, .vision-bottom > div{
-    width: 50%;
-    /* border: 1px solid black; */
-    font-family: 'Roboto', sans-serif;
-    line-height: 25px;
-    text-align: justify;
+.mission-content > .right{
+    width: 40%;
 }
-.mission-bottom > div > p{
-    padding-right: 50px;
+.mission-content > .right > img{
+    width: 100%;
 }
-.vision-bottom > div > p{
-    padding-left: 50px;
-}
-.mission-bottom > div:last-child{
-    /* border: 1px solid black; */
-    display: flex;
-    justify-content: flex-end;
-}
-.vision{
-    margin-top: 60px;
-}
-.vision-top {
-    text-align: right;
-    /* border: 1px solid red; */
-}
-.vision-top > h1 {
-    padding-right: 0;
-}
-.vision-bottom{
-    flex-direction: row-reverse;
-}
-.vision-bottom > div:last-child{
-    /* border: 1px solid black; */
-    display: flex;
-    /* justify-content: flex-start; */
-}
+
 
