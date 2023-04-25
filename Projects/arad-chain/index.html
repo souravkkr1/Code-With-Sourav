@@ -4,82 +4,161 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome -->
     <script
       src="https://kit.fontawesome.com/599b966433.js"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Animate.CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- Animate On Scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Css Files -->
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/navbar.css" />
     <link rel="stylesheet" href="styles/slider.css" />
-    <link rel="stylesheet" href="styles/footer.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="styles/blogs.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+
+    <!-- Mobile view -->
+    <link rel="stylesheet" href="styles/mobile/navbar.css" />
+    <link rel="stylesheet" href="styles/mobile/index.css" />
+    <link rel="stylesheet" href="styles/mobile/slider.css" />
+    <link rel="stylesheet" href="styles/mobile/blogs.css" />
+    <link rel="stylesheet" href="styles/mobile/footer.css" />
+
     <title>Arad Chain</title>
   </head>
   <body>
     <!-- Navbar Section -->
-    <nav>
-      
-    </nav>
+    <nav></nav>
 
     <!-- Main Section -->
     <main>
       <!-- Section 1: Slider -->
       <div class="section1">
         <div class="slider">
-          <div class="slide">
+          <div class="slide" id="slide1">
             <div class="slide-container">
               <div class="slide-content">
-                <p>
+                <p data-aos="fade" data-aos-duration="1000">
                   Complete Commercial, Residential & Industrial Solar Systems
                 </p>
-                <h1>We Invest In The Future Of Planet!</h1>
-                <p>
+                <h1
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
+                  We Invest In The Future Of Planet!
+                </h1>
+                <p
+                  data-aos="fade"
+                  data-aos-delay="200"
+                  data-aos-duration="1000"
+                >
                   As a world wide distributor of solar supplies we endeavor to
                   provide fast and knowledgeable service, we can get you
                   materials by sea or air.
                 </p>
-                <div>
-                  <a href=""><button class="green-btn">More About Us</button></a>
+                <div
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
+                  <a href=""
+                    ><button class="green-btn">More About Us</button></a
+                  >
                   <a href=""><button class="white-btn">Our Mission</button></a>
                 </div>
               </div>
             </div>
           </div>
-          <!-- <div class="slide">
-            <div class="slide-content">
-              <p>Complete Commercial, Residential & Industrial Solar Systems</p>
-              <h1>We Invest In The Future Of Planet!</h1>
-              <p>
-                As a world wide distributor of solar supplies we endeavor to
-                provide fast and knowledgeable service, we can get you materials
-                by sea or air.
-              </p>
-              <div>
-                <a href=""><button>More About Us</button></a>
-                <a href=""><button>Our Mission</button></a>
+
+          <div class="slide" id="slide2">
+            <div class="slide-container">
+              <div class="slide-content">
+                <p data-aos="fade" data-aos-duration="1000">
+                  Complete Commercial, Residential & Industrial Solar Systems
+                </p>
+                <h1
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
+                  Streamlining Agricultural Supply Chains
+                </h1>
+                <p
+                  data-aos="fade"
+                  data-aos-delay="200"
+                  data-aos-duration="1000"
+                >
+                  As a world wide distributor of solar supplies we endeavor to
+                  provide fast and knowledgeable service, we can get you
+                  materials by sea or air.
+                </p>
+                <div
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
+                  <a href=""
+                    ><button class="green-btn">More About Us</button></a
+                  >
+                  <a href=""><button class="white-btn">Our Mission</button></a>
+                </div>
               </div>
             </div>
           </div>
-          <div class="slide">
-            <div class="slide-content">
-              <p>Complete Commercial, Residential & Industrial Solar Systems</p>
-              <h1>We Invest In The Future Of Planet!</h1>
-              <p>
-                As a world wide distributor of solar supplies we endeavor to
-                provide fast and knowledgeable service, we can get you materials
-                by sea or air.
-              </p>
-              <div>
-                <a href=""><button>More About Us</button></a>
-                <a href=""><button>Our Mission</button></a>
+
+          <div class="slide" id="slide3">
+            <div class="slide-container">
+              <div class="slide-content">
+                <p data-aos="fade" data-aos-duration="1000">Complete</p>
+                <h1
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
+                  We Invest In The Future Of Planet!
+                </h1>
+                <p
+                  data-aos="fade"
+                  data-aos-delay="200"
+                  data-aos-duration="1000"
+                >
+                  As a world wide d
+                </p>
+                <div
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
+                  <a href=""
+                    ><button class="green-btn">More About Us</button></a
+                  >
+                  <a href=""><button class="white-btn">Our Mission</button></a>
+                </div>
               </div>
             </div>
-          </div> -->
+          </div>
         </div>
-        <div class="navigation-button">
-          <span class="dot active" onclick="changeSlide(0)"></span>
-          <span class="dot" onclick="changeSlide(1)"></span>
-        </div>
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+
+      <!-- The dots/circles -->
+      <div class="slider-dots" style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
       </div>
 
       <!-- Section 2: Enhanced Startegy -->
@@ -92,7 +171,18 @@
             <h1 class="heading">Our blockchain enhanced startegy</h1>
           </div>
           <div class="enhanced-content">
-            <div class="enhanced-left"></div>
+            <div class="enhanced-left">
+              <div class="watch">
+                <div>
+                  <i
+                    data-aos="zoom-out"
+                    data-aos-duration="1000"
+                    class="fa-solid fa-circle-play"
+                  ></i>
+                </div>
+                <p>Watch the video!</p>
+              </div>
+            </div>
             <div class="enhanced-right">
               <div>
                 <i class="fa-solid fa-smog" style="color: #4aab3d"></i>
@@ -152,9 +242,7 @@
               medium-sized farmers and funders.
             </p>
           </div>
-          <div class="right">
-            
-          </div>
+          <div class="right"></div>
         </div>
       </div>
 
@@ -166,21 +254,30 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p> -->
             <h1 class="heading">Roadmap</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore mollitia fugit error. Commodi tempora mollitia maiores expedita temporibus ducimus numquam ullam eaque iste odio. Maiores distinctio commodi dicta placeat repudiandae.</p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              mollitia fugit error. Commodi tempora mollitia maiores expedita
+              temporibus ducimus numquam ullam eaque iste odio. Maiores
+              distinctio commodi dicta placeat repudiandae.
+            </p>
           </div>
           <div class="timeline">
             <ul>
               <li>
                 <div class="time">
-                  <span><i class="fa-solid fa-calendar-days"></i>Completed</span>
+                  <span
+                    ><i class="fa-solid fa-calendar-days"></i>Completed</span
+                  >
                 </div>
                 <div class="content1">
                   <h2 class="text-white">Phase 1</h2>
                   <ul>
                     <li>AradChain Concept Design</li>
                     <li>Team Formation (Business and Technical)</li>
-                    <li>Collateral Development (Website, video, social links,
-                      whitepaper, etc.)</li>
+                    <li>
+                      Collateral Development (Website, video, social links,
+                      whitepaper, etc.)
+                    </li>
                     <li>Soft Launch of Website</li>
                     <li>Press Release</li>
                     <li>Launch Marketing Campaign</li>
@@ -198,8 +295,10 @@
                   <ul>
                     <li>AradChain Production</li>
                     <li>Security Audit</li>
-                    <li>Incorporate Company at Dubai International Finance
-                      Centre, UAE</li>
+                    <li>
+                      Incorporate Company at Dubai International Finance Centre,
+                      UAE
+                    </li>
                     <li>Launch AradChain Coin</li>
                     <li>Presale Launch for AradChain Coin - Phase 1</li>
                     <li>Listing on Coingeko and CoinMarketcap</li>
@@ -210,22 +309,30 @@
               </li>
               <li>
                 <div class="time">
-                  <span><i class="fa-solid fa-calendar-days"></i>July 2023</span>
+                  <span
+                    ><i class="fa-solid fa-calendar-days"></i>July 2023</span
+                  >
                 </div>
                 <div class="content1">
                   <h2 class="text-white">Phase 3</h2>
                   <ul>
                     <li>Add Liquidity on Exchange</li>
                     <li>DEX & CX Listing</li>
-                    <li>Start Registration Process for Farmers, Individuals,
-                      Inputs, Banks, Investment Companies, Buyers, etc.</li>
+                    <li>
+                      Start Registration Process for Farmers, Individuals,
+                      Inputs, Banks, Investment Companies, Buyers, etc.
+                    </li>
                     <li>Onboard Regional Partners</li>
                     <li>Pilot Test AradChain in a Limited Geographical Area</li>
-                    <li>Establish The First Outreach Training Center in
-                      Selected Trial Region</li>
+                    <li>
+                      Establish The First Outreach Training Center in Selected
+                      Trial Region
+                    </li>
                     <li>Begin Development of Dapps, IoT & A.I integration</li>
-                    <li>Expand into CiS - Eurasian region - Kazakhstan,
-                      Uzbekistan, Kyrgyzstan, Azerbaijan & Tajikistan</li>
+                    <li>
+                      Expand into CiS - Eurasian region - Kazakhstan,
+                      Uzbekistan, Kyrgyzstan, Azerbaijan & Tajikistan
+                    </li>
                   </ul>
                 </div>
               </li>
@@ -240,13 +347,19 @@
                     <li>Expand Regional Training Centers</li>
                     <li>Team Establish Call Centers for Farmers Queries</li>
                     <li>Scale AradChain to Cover More Geographical Areas</li>
-                    <li>Develop Partnerships and Collaborations with Other
-                      Stakeholders in the Agriculture Industry</li>
-                    <li>Expand AradChain to Cover More Agriculture Sectors and
-                      Commodities</li>
+                    <li>
+                      Develop Partnerships and Collaborations with Other
+                      Stakeholders in the Agriculture Industry
+                    </li>
+                    <li>
+                      Expand AradChain to Cover More Agriculture Sectors and
+                      Commodities
+                    </li>
                     <li>Launch Marketing Campaign</li>
-                    <li>Open regional offices in Bahrain, Qatar, Kuwait, Saudi
-                      Arabia & Oman</li>
+                    <li>
+                      Open regional offices in Bahrain, Qatar, Kuwait, Saudi
+                      Arabia & Oman
+                    </li>
                   </ul>
                 </div>
               </li>
@@ -257,10 +370,13 @@
                 <div class="content1">
                   <h2 class="text-white">Phase 5</h2>
                   <ul>
-                    <li>Evaluate AradChain's Impact on the Agriculture
-                      Industry</li>
-                      <li> Monitor and Maintain AradChain to Ensure That it
-                        Continues to Meet the Needs of the Agricultural Sector</li>
+                    <li>
+                      Evaluate AradChain's Impact on the Agriculture Industry
+                    </li>
+                    <li>
+                      Monitor and Maintain AradChain to Ensure That it Continues
+                      to Meet the Needs of the Agricultural Sector
+                    </li>
                   </ul>
                 </div>
               </li>
@@ -280,7 +396,11 @@
               </h1>
             </div>
             <div class="right">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, maxime doloribus illo excepturi quia inventore recusandae unde delectus in eaque! Officiis consectetur quaerat possimus.</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum,
+                maxime doloribus illo excepturi quia inventore recusandae unde
+                delectus in eaque! Officiis consectetur quaerat possimus.
+              </p>
             </div>
           </div>
           <div class="mid"></div>
@@ -294,61 +414,44 @@
           <div class="top">
             <div class="left">
               <p class="sub-heading">
-                Our blockchain technology ensures a fair, win/win outcome for all
+                Our blockchain technology ensures a fair, win/win outcome for
+                all
               </p>
               <h1 class="heading">Who can benefit from our services</h1>
             </div>
             <div class="right">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, maxime doloribus illo excepturi quia inventore recusandae unde delectus in eaque! Officiis consectetur quaerat possimus.</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum,
+                maxime doloribus illo excepturi quia inventore recusandae unde
+                delectus in eaque! Officiis consectetur quaerat possimus.
+              </p>
             </div>
-        </div>
-        <div class="bottom">
-
+          </div>
+          <div class="bottom"></div>
         </div>
       </div>
 
-
-      <!-- Section 7: Statistics -->
-      <!-- <div class="section7">
-        <div class="statistics">
-          <div>
-            <p>Lorem</p>
-            <h1>10000</h1>
-          </div>
-          <div>
-            <p>Lorem</p>
-            <h1>7860</h1>
-          </div>
-          <div>
-            <p>Lorem</p>
-            <h1>10000</h1>
-          </div>
-          <div>
-            <p>Lorem</p>
-            <h1>50+</h1>
-          </div>
-          <div>
-            <p>Lorem</p>
-            <h1>1000+</h1>
-          </div>
-          
+      <!-- Section 7: Blogpost -->
+      <div class="section7">
+        <div class="reg-form">
+          <p class="sub-heading"></p>
+          <h1 class="heading">Blogs/News</h1>
+          <div class="blogpost"></div>
         </div>
-      </div> -->
-
+      </div>
     </main>
 
     <!-- Footer Section -->
-    <footer>
-      
-    </footer>
+    <footer></footer>
 
     <script src="scripts/index.js"></script>
+    <script src="scripts/slider.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/blogs.js"></script>
     <script>
       AOS.init();
     </script>
     <script type="module">
-
       import navbar from "./components/navbar.js";
       const navContainer = document.querySelector("nav");
       navContainer.innerHTML = navbar();
@@ -356,7 +459,6 @@
       import footer from "./components/footer.js";
       const footerContainer = document.querySelector("footer");
       footerContainer.innerHTML = footer();
-
     </script>
   </body>
 </html>

@@ -1,0 +1,145 @@
+@media all and (max-width:480px) {
+
+/* Section 2 */
+/* >>>> ENhanced Strategy */
+    .section2{
+        padding: 0 15px;
+    }
+    .enhanced{
+        /* border: 1px solid red; */
+        height: 100%;
+        width: 100%;
+        margin: auto;
+        /* padding: 0 20px; */
+    }
+    .enhanced .watch{
+    margin: 30px;
+
+    }
+    .enhanced-content{
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+        gap: 30px;
+    }
+    .enhanced-left{
+        width: 95%;
+        height: 600px;
+    }
+    .enhanced-right{
+    /* border: 1px solid blue; */
+    width: 95%;
+    }
+
+/* Section 3 */
+/* >>>> How Arad Chain will */
+    .section3{
+        padding: 0 15px;
+    }
+    .how-will{
+        width: 95%;
+    }
+    .how-will > .left > p:nth-child(3){
+        width: 100%;
+    }
+    .how-will > .right{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+}
+
+/* Section 4 */
+/* >>>>> Roadmap */
+    .section4{
+        padding: 0 15px;
+    }
+    .roadmap{
+        width: 95%;
+        margin: auto;
+    }
+    .roadmap-heading{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .timeline {
+        margin: 5px 0px;
+    }
+    /* Line */
+    .timeline::before{
+        left: 1px;
+        height: 99%;
+        width: 5px;
+    }
+    /* Circle */
+    .timeline > ul > li:before {
+        content: "";
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background-color: #329e28;
+        border-radius: 50%;
+        transition: 0.5s;
+        left: -7px;
+    } 
+    .timeline > ul > li .time {
+        /* position: absolute; */
+        text-align: center;
+        /* padding-left: 5px; */
+        box-shadow: 0px 0px 0px 1px;
+        /* margin-top: -15px; */
+        left: 40px;
+    }
+    .content1{
+        /* padding-top: 80px; */
+        margin-bottom: 73px;
+        top: 60px;
+        width: 95%;
+        left: 9%;
+    }
+
+/* Section 5 */
+/* >>>> Discover the Power */
+    .section5{
+        padding: 0 15px;
+    }
+    .top{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .discover{
+        width: 95%;
+    }
+    .mid{
+        /* border: 1px solid yellow; */
+        display: flex;
+        flex-wrap: wrap;
+        gap: 60px 0;
+        align-items: center;
+        justify-content: center;
+    }
+    .discoverBoxes{
+        width: 400px;
+    }
+
+/* Section 6 */
+/* >>>> Who can benefit from us */    
+    .section6{
+        padding: 0 15px;
+    }
+    .benefit{
+        width: 95%;
+    }
+    .benefit > .bottom{
+        flex-direction: column;
+        align-items: center;
+    }
+
+/* Section 7 */
+/* >>>> Blogposts */   
+    .section7{
+        border: 1px solid var(--primary-green);
+        width: 100%;
+        padding: 0 15px;
+    }
+    .section7 h1{
+        width: 95%;
+    }
+}

@@ -1,0 +1,10 @@
+@media all and (max-width:480px) {
+    .slide-content{
+        width: 90%;
+        margin: auto;
+    }
+    .slider-dots,.prev,.next{
+        display: none;
+    }
+}
+

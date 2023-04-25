@@ -1,7 +1,7 @@
 /* Section: 3 */
 /* >>>>> Blog Posts */
 
-.section3{
+.section3-blog{
     /* border: 1px solid red; */
     width: 100%;
 }
@@ -15,10 +15,13 @@
 }
 .blogpost img{
     width: 100%;
-    border-radius: 7px;
+    border-radius: 10px;
 }
 .blogpost > div {
-    border-radius: 7px;
+    border-radius: 10px;
+    background-color: white;
+    border-bottom: 4px solid white;
+
 }
 .blogpost > div:hover {
     border-bottom: 4px solid var(--primary-green);

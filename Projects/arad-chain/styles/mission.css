@@ -3,11 +3,13 @@
 
 
 /* Section 3:  Mission */
-.section3{
+.section3, .section4, .section5{
+    /* border: 1px solid red; */
     width: 100%;
     /* border: 1px solid black; */
+    margin: 100px 0;
 }
-.mission-content{
+.mission-content, .vision-content{
     /* border: 1px solid black; */
     width: 1100px;
     margin: auto;
@@ -16,14 +18,32 @@
 .mission-content > div{
     /* border: 1px solid red; */
 }
-.mission-content > .left{
+.mission-content > .left, .vision-content > .right{
     width: 60%;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
-.mission-content > .right{
+.mission-content > .left > div:first-child, .vision-content > .right >  div:first-child{
+    /* border: 1px solid green; */
+    border-left: 10px solid var(--primary-green);
+    padding-left:30px ;
+}
+.mission-content > .right,  .vision-content > .left{
     width: 40%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
 }
-.mission-content > .right > img{
+.mission-content > .right > img, .vision-content > .left > img{
     width: 100%;
+    border-radius: 10px;
 }
 
+/* Section 4:  Mission: Vision */
+.vision-content > .right{
+    padding-left: 60px;
+    padding-right: 0px;
+}
 

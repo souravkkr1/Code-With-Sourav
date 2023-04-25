@@ -1,0 +1,9 @@
+@media all and (max-width:480px) {
+    .section3-blog{
+        padding: 0 15px;
+    }
+   .blogpost{
+        width: 95%;
+        grid-template-columns: repeat(1,1fr);
+   }
+}

@@ -2,7 +2,7 @@ const team = [
     {
         name: "Gurmit Singh",
         role: "CEO & Co-Founder",
-        image: "assets/team/gurmitSingh.jpg",
+        image: "assets/team/cropped.png",
         linkedin: "https://www.linkedin.com/in/gurmitsingh1"
     },
     {
@@ -12,7 +12,7 @@ const team = [
         linkedin: "https://www.linkedin.com/in/nomanhaq12"
     },
     {
-        name: "Sayyid Mansoob Hasan",
+        name: "Sayyid M Hasan",
         role: "Financial Advisor/ CFO",
         image: "assets/team/mansoobHasan.jpg",
         linkedin: ""
@@ -58,6 +58,7 @@ const team = [
 let teamPhotosContainer = document.querySelector(".bottom");
 team.forEach((ele) => {
     let box = document.createElement("div");
+    box.className = "animate__animated animate__bounce"
 
     let image = document.createElement("img");
     image.src = ele.image;

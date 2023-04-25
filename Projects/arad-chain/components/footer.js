@@ -6,10 +6,8 @@ function footer() {
           <h3>Quick Contact</h3>
           <div>
             <p>If you have any questions or need help, feel free to contact with our team.</p>
-            <a href="tel:(002)0000000000" class="text-accent text-hover-white">        <span class="cms-icon-wrap"><i aria-hidden="true" class="cms-icon cms-phone-icon text-16 cmsi cmsi-phone-alt" style=""></i></span>
-              &nbsp;(002) 0000000000</a>
+            <a href="tel:(002)0000000000">(002) 0000000000</a>
             <p>Dubai International Finance</p>
-            <a href="#">Get Directions</a>
           </div>
         </div>
 
@@ -17,39 +15,31 @@ function footer() {
           <h3>Company</h3>
           <div>
             <a href="#">Home</a>
-            <a href="#">Mission</a>
-            <a href="#">Registration</a>
-            <a href="#">Blogs</a>
-            <a href="#">About Us</a>
-          </div>
-        </div>
-
-        <div class="phases">
-          <h3>Phases</h3>
-          <div>
-            <a href="#">Phase 1</a>
-            <a href="#">Phase 2</a>
-            <a href="#">Phase 3</a>
-            <a href="#">Phase 4</a>
-            <a href="#">Phase 5</a>
+            <a href="mission.html">Mission</a>
+            <a href="registration.html">Registration</a>
+            <a href="blogs.html">Blogs</a>
+            <a href="about.html">About Us</a>
           </div>
         </div>
 
         <div class="benefits">
-          <h3>Benefits to</h3>
+          <h3>Blogs/News</h3>
           <div>
-            <p>Farmers</p>
-            <p>Manufacturers</p>
-            <p>Funders</p>
-            <p>Investors</p>
-            <p>Merchants & Traders</p>
+            <a href="">Revolutionizing Agriculture</a>
+            <a href="">Blockchain-based solutions</a>
+            <a href="">Using Blockchain to Combat</a>
           </div>
         </div>
 
         <div class="contact-btn">
           <button class="green-btn">Contact</button>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus repellendus omnis et ipsa sunt non, animi harum praesentium, eveniet dolore!</p>
           <div class="social-icons">
-
+            <a href="https://www.facebook.com/aradchain"><i class="fa-brands fa-square-facebook" style="color: #808080;"></i></a>
+            <a href="https://www.instagram.com/aradchain.io/"><i class="fa-brands fa-square-twitter" style="color: #808080;"></i></a>
+            <a href="https://twitter.com/AradChain"><i class="fa-brands fa-square-instagram style="color: #808080;"></i></a>
+            <a href="https://twitter.com/AradChain"><i class="fa-brands fa-youtube" style="color: #808080;"></i></a>
+            <a href="https://twitter.com/AradChain"><i class="fa-brands fa-telegram" style="color: #808080;"></i></a>
           </div>
         </div>
       </div>

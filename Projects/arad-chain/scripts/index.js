@@ -109,6 +109,7 @@ const howWillContainer = document.querySelector(".how-will > .right");
 howWill.map((ele) => {
     let box = document.createElement("div");
     box.className = "howWillBoxes"
+    // box.setAttribute("data-aos", "ease-in");
     // box.setAttribute("data-aos", "slide-up")
     // box.setAttribute("data-aos-duration", "1000")
     let object = document.createElement("object");
@@ -132,7 +133,7 @@ const container = document.querySelector(".mid");
 blackBox.map((ele) => {
     let box = document.createElement("div");
     box.className = "discoverBoxes"
-    // box.setAttribute("data-aos", "slide-up")
+    // box.setAttribute("data-aos", "zoom-in-up")
     // box.setAttribute("data-aos-duration", "1000")
     let img = document.createElement("img");
     img.src = ele.img;
@@ -155,7 +156,7 @@ const benefitContainer = document.querySelector(".benefit > .bottom");
 benefit.map((ele) => {
     let box = document.createElement("div");
     box.className = "benefitBoxes"
-    // box.setAttribute("data-aos", "slide-up")
+    // box.setAttribute("data-aos", "zoom-in-up")
     // box.setAttribute("data-aos-duration", "1000")
     let img = document.createElement("img");
     img.src = ele.img;
@@ -173,3 +174,22 @@ benefit.map((ele) => {
 
 })
 
+const loader = document.querySelector("clock-loader")
+function handlePreloader() {
+    loader.delay(1000).fadeOut(0);
+}
+
+$(window).on('load', function () {
+    handlePreloader();
+});
+
+// Ham-Menu-Close
+let menu = document.querySelector(".ham-menu")
+function closeFunc() {
+  menu.style.display = "none"
+  alert("hello")
+}
+function openFunc() {
+  menu.style.display = "block"
+  alert("hello")
+}

@@ -15,7 +15,7 @@
     box-sizing: border-box;
 }
 footer{
-    border: 1px solid #616161;
+    border: 1px solid black;
     height: auto;
     width: 100%;
     background-color: #161616;
@@ -35,46 +35,49 @@ footer{
 }
 .footer-container > div:nth-child(2){
     /* border: 1px solid white; */
-    width: 15%;
+    width: 20%;
 }
 .footer-container > div:nth-child(3){
     /* border: 1px solid white; */
-
-    width: 15%;
+    width: 20%;
 }
 .footer-container > div:nth-child(4){
     /* border: 1px solid white; */
-
-    width: 15%;
-}
-.footer-container > div:nth-child(5){
-    /* border: 1px solid white; */
-
-    width: 25%;
+    width: 30%;
 }
 footer h3{
     color: white;
     margin-bottom: 50px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Nasalization', sans-serif;
 }
 footer p, a{
     color: var(--description);
     text-decoration: none;
     line-height: 22px;
     /* margin: 0 0 10px 0; */
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Sansation', sans-serif;
     font-weight: 300;
     font-size: 15px;
 }
+.benefits a{
+    /* border: 1px solid red; */
+    display: block;
+    margin-bottom: 10px;
+}
+a:hover{
+    color: var(--primary-green);
+}
 .contact > div > a:nth-child(2){
+    /* border: 1px solid red; */
     color: var(--primary-green);
     font-size: 25px;
     font-weight: 600;
-    /* margin-top: 20px !important; */
+    margin:10px 0;
 }
-.company > div, .phases > div {
+.contact >div, .company > div, .phases > div {
     display: flex;
     flex-direction: column;
+    /* gap: 30px; */
 }
 .contact-btn{
     display: flex;
@@ -83,4 +86,31 @@ footer p, a{
     align-items: flex-end;
 }
 .contact-btn > button{
+}
+.contact-btn > p{
+    text-align: right;
+}
+.social-icons > a{
+    /* border: 1px solid red; */
+    margin-left: 20px;
+}
+.social-icons > a:nth-child(1)> .fa-brands:hover{
+    /* border: 1px solid red; */
+    color: #3b5998 !important;
+}
+.social-icons > a:nth-child(2) > .fa-brands:hover{
+    /* border: 1px solid red; */
+    color: #00acee !important;
+}
+.social-icons > a:nth-child(3) > .fa-brands:hover{
+    /* border: 1px solid red; */
+    color:#962fbf !important;
+}
+.social-icons > a:nth-child(4) > .fa-brands:hover{
+    /* border: 1px solid red; */
+    color:#c4302b !important;
+}
+.social-icons > a:nth-child(5) > .fa-brands:hover{
+    /* border: 1px solid red; */
+    color:#0088cc !important;
 }
