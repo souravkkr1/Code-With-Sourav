@@ -1,4 +1,8 @@
-@media all and (max-width:480px) {
+@media all and (max-width:680px) {
+    nav{
+        width: 100%;
+        padding: 0 15px;
+    }
     .navbar{
         width: 95%;
         margin: auto;
@@ -21,7 +25,7 @@
         width: 100%;
         background-color: var(--primary-green);
         height: 100vh;
-        display: flex none;
+        display: none;
     }
     .ham-menu > ul{
         list-style: none;
@@ -40,9 +44,10 @@
         position: absolute;
         right: 10px;
         top: 10px;
+        color: white;
     }
     .ham-menu > ul > li:first-child:hover{
-        color: #8E05C2;
+        color: white;
     }
     .ham-menu > ul > li > a{
         text-decoration: none;

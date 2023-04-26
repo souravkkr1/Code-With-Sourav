@@ -19,13 +19,13 @@ p{
     background-size: cover
   }
   #slide1{
-    background-image: url(../assets/images/slider1.webp);
+    background-image: url(../assets/images/slide1.jpeg);
   }
   #slide2{
-    background-image: url(../assets/images/slider2.webp);
+    background-image: url(../assets/images/slide2.jpeg);
   }
   #slide3{
-    background-image: url(../assets/images/reg.webp);
+    background-image: url(../assets/images/slide3.jpg);
   }
   .slide::before{
     content: '';

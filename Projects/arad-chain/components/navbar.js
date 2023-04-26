@@ -15,7 +15,7 @@ function navbar() {
           </ul>
         </div>
         <i 
-            onClick="{openFunc()}"
+            onClick={openFunc()}
             id="ham-icon"
             class="fa-solid fa-bars" style="color: #000000;"></i>
       </div>

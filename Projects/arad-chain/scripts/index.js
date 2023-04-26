@@ -179,17 +179,13 @@ function handlePreloader() {
     loader.delay(1000).fadeOut(0);
 }
 
-$(window).on('load', function () {
-    handlePreloader();
-});
 
 // Ham-Menu-Close
-let menu = document.querySelector(".ham-menu")
 function closeFunc() {
-  menu.style.display = "none"
-  alert("hello")
+    let menu = document.querySelector(".ham-menu")
+    menu.style.display = "none"
 }
 function openFunc() {
-  menu.style.display = "block"
-  alert("hello")
+    let menu = document.querySelector(".ham-menu")
+    menu.style.display = "block";
 }

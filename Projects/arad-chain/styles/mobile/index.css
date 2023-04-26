@@ -1,4 +1,4 @@
-@media all and (max-width:480px) {
+@media all and (max-width:680px) {
 
 /* Section 2 */
 /* >>>> ENhanced Strategy */
@@ -14,7 +14,6 @@
     }
     .enhanced .watch{
     margin: 30px;
-
     }
     .enhanced-content{
         flex-direction: column;

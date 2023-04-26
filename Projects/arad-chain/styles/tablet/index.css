@@ -1,0 +1,206 @@
+@media all and (min-width:901px) and (max-width:1099px) {
+/* Section 2 */
+/* >>>> ENhanced Strategy */
+    .section2{
+        padding: 0 15px;
+    }
+    .enhanced{
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    .enhanced .watch{
+        margin: 30px;
+    }
+    .enhanced-content{
+        flex-direction: row;
+        align-items: center;
+        /* justify-content: center; */
+        gap: 30px;
+    }
+    .enhanced-left{
+        width: 45%;
+        height: 750px;
+    }
+
+
+/* Section 3 */
+/* >>>> How Arad Chain will */
+    .section3{
+        padding: 0 15px;
+    }
+    .how-will{
+        width: 95%;
+    }
+    .how-will > .left > p:nth-child(3){
+        width: 100%;
+    }
+    .how-will > .right{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+    }
+
+
+/* Section 5 */
+/* >>>> Discover the Power */
+    .section5{
+        padding: 0 15px;
+    }
+    .mid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .discoverBoxes{
+        width: auto;
+        height: 100%;
+    }
+
+
+/* Section 6 */
+/* >>>> Who can benefit from us */ 
+    .section6{
+        padding: 0 15px;
+    }
+    .benefit{
+        text-align: center;
+    }  
+    .benefit > .top{
+        /* border: 1px solid red; */
+        /* flex-direction: row !important; */
+    }
+    .top > div{
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    .section6{
+        padding: 0 15px;
+    }
+    .benefit{
+        width: 95%;
+    }
+    .benefit > .bottom{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media all and (min-width:681px) and (max-width:900px) {
+    /* Section 2 */
+/* >>>> ENhanced Strategy */
+    .section2{
+        padding: 0 15px;
+    }
+    .enhanced{
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    .enhanced .watch{
+        margin: 30px;
+    }
+    .enhanced-content{
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+        gap: 30px;
+    }
+    .enhanced-left{
+        width: 95%;
+        height: 700px;
+    }
+    .enhanced-right{
+        /* border: 1px solid blue; */
+        width: 95%;
+    }
+
+/* Section 3 */
+/* >>>> How Arad Chain will */
+    .section3{
+        padding: 0 15px;
+    }
+    .how-will{
+        width: 95%;
+    }
+    .how-will > .left > p:nth-child(3){
+        width: 100%;
+    }
+    .how-will > .right{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+
+/* Section 5 */
+/* >>>> Discover the Power */
+    .section5{
+        padding: 0 15px;
+    }
+    .section5 .top{
+        /* grid-template-columns: repeat(1, 1fr); */
+        flex-direction: column;
+        text-align: center;
+    }
+    .section5 .top > div{
+        width: 100%;
+    }
+    .discover{
+        width: 95%;
+    }
+    .discover > .top > .left > .heading{
+        /* color: var(--heading-white) !important; */
+        margin-right: 0px;
+    }
+    .discover > .top > .right > p{
+        width: 100%;
+    }
+    .section5 .mid{
+        /* border: 1px solid yellow; */
+        display: grid;
+        /* flex-wrap: wrap; */
+        grid-template-columns: repeat(2, 1fr);
+        /* gap: 60px 0; */
+        align-items: center;
+        justify-content: center;
+    }
+    .discoverBoxes{
+        width: auto;
+        height: 100%;
+    }
+
+
+
+/* Section 6 */
+/* >>>> Who can benefit from us */  
+    .section6{
+        padding: 0 15px;
+    }
+    .benefit{
+        text-align: center;
+    }  
+    .benefit > .top{
+        /* border: 1px solid red; */
+        /* flex-direction: row !important; */
+    }
+    .top > div{
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    .section6{
+        padding: 0 15px;
+    }
+    .benefit{
+        width: 95%;
+    }
+    .benefit > .bottom{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+/* Section 7 */
+/* >>>> Blogposts */   
+.section7{
+    border: 1px solid var(--primary-green);
+    width: 100%;
+    padding: 0 15px;
+}
+.section7 h1{
+    width: 95%;
+}
+
+}
