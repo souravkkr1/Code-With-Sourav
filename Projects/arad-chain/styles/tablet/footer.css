@@ -1,0 +1,38 @@
+@media all and (min-width:681px) and (max-width:1099px) {
+    footer{
+        padding: 0 15px;
+    }
+    .footer-container{
+        width: 95%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-container > div:nth-child(1){
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    .footer-container > div:nth-child(2){
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    .footer-container > div:nth-child(3){
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    .footer-container > div:nth-child(4){
+        /* border: 1px solid red; */
+        width: 100%;
+        align-items: flex-start;
+    }
+    .contact-btn {
+        gap: 10px;
+    }
+    .contact-btn > p{
+        text-align: left;
+    }
+    .social-icons > a{
+        /* border: 1px solid red; */
+        margin-right: 20px;
+        margin-left: 0px;
+    }
+}

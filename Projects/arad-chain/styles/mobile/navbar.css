@@ -26,6 +26,8 @@
         background-color: var(--primary-green);
         height: 100vh;
         display: none;
+        left: 0;
+        top: 0;
     }
     .ham-menu > ul{
         list-style: none;
@@ -71,4 +73,7 @@
     .ham-menu > ul > li > button > a > i{
        width: 70%;
     }
+    .jumbotron{
+        width: 100%;
+   }
 }

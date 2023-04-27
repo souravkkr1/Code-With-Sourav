@@ -6,4 +6,25 @@
         width: 95%;
         grid-template-columns: repeat(1,1fr);
    }
+
+   /* Article Page <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<,*/
+
+
+    .article{
+        /* border: 1px solid red; */
+        /* margin: 0 15px; */
+        width: 95%;
+    }
+    /* .center {
+        width: 45%;
+    }
+    .blog-post{
+        border: 1px solid red;
+        width: 75%;
+        margin: auto ;
+        text-align: justify;
+    }
+    .blog-post > p{
+        margin-bottom: 20px;
+    } */
 }

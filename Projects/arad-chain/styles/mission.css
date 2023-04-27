@@ -19,6 +19,7 @@
     /* border: 1px solid red; */
 }
 .mission-content > .left, .vision-content > .right{
+    /* border: 1px solid red; */
     width: 60%;
     padding-right: 100px;
     display: flex;
@@ -31,9 +32,10 @@
     padding-left:30px ;
 }
 .mission-content > .right,  .vision-content > .left{
+    /* border: 1px solid red; */
     width: 40%;
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: center;
 }
 .mission-content > .right > img, .vision-content > .left > img{

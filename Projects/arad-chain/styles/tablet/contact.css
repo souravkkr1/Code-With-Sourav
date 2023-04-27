@@ -1,0 +1,18 @@
+@media all and (min-width:681px) and (max-width:1099px) {
+    /* Section: 3 */
+    /* >>>>> Contact Form*/
+
+    .section3{
+        border: 1px solid red;
+        width: 100%;
+        padding: 0 15px;
+    }
+    .contact-form{
+        width: 95%;
+        gap: 30px;
+    }
+    .contact-form  > .left{
+        width: 45%;
+        padding: 20px;
+    }
+}

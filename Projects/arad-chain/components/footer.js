@@ -3,11 +3,8 @@ function footer() {
     `
         <div class="footer-container">
         <div class="contact">
-          <h3>Quick Contact</h3>
           <div>
-            <p>If you have any questions or need help, feel free to contact with our team.</p>
-            <a href="tel:(002)0000000000">(002) 0000000000</a>
-            <p>Dubai International Finance</p>
+            <img src="assets/images/footer-logo.png" alt="" />
           </div>
         </div>
 
@@ -25,21 +22,21 @@ function footer() {
         <div class="benefits">
           <h3>Blogs/News</h3>
           <div>
-            <a href="">Revolutionizing Agriculture</a>
-            <a href="">Blockchain-based solutions</a>
-            <a href="">Using Blockchain to Combat</a>
+            <a href="revolutionizing-agriculture-supply.html">Revolutionizing Agriculture</a>
+            <a href="blockchain-based-solution.html">Blockchain-based solutions</a>
+            <a href="using-blockchain.html">Using Blockchain to Combat</a>
           </div>
         </div>
 
         <div class="contact-btn">
-          <button class="green-btn">Contact</button>
-          <p>Footer Description: Empowering Global Agricultural Supply Chains with AradChain’s Blockchain Solutions by Enabling Transparency, Efficiency, and Food Safety.</p>
+          <a href="contact.html"><button class="green-btn">Contact</button></a>
+          <p>Empowering Global Agricultural Supply Chains with AradChain’s Blockchain Solutions by Enabling Transparency, Efficiency, and Food Safety.</p>
           <div class="social-icons">
             <a href="https://www.facebook.com/aradchain"><i class="fa-brands fa-square-facebook" style="color: #808080;"></i></a>
-            <a href="https://www.instagram.com/aradchain.io/"><i class="fa-brands fa-square-twitter" style="color: #808080;"></i></a>
-            <a href="https://twitter.com/AradChain"><i class="fa-brands fa-square-instagram style="color: #808080;"></i></a>
-            <a href="https://twitter.com/AradChain"><i class="fa-brands fa-youtube" style="color: #808080;"></i></a>
-            <a href="https://twitter.com/AradChain"><i class="fa-brands fa-telegram" style="color: #808080;"></i></a>
+            <a href="https://twitter.com/AradChain"><i class="fa-brands fa-square-twitter" style="color: #808080;"></i></a>
+            <a href="https://www.instagram.com/aradchain.io/"><i class="fa-brands fa-square-instagram style="color: #808080;"></i></a>
+            <a href="https://www.youtube.com/@AradChain"><i class="fa-brands fa-youtube" style="color: #808080;"></i></a>
+            <a href="https://t.me/+iUsR6gu9UYVkY2U9"><i class="fa-brands fa-telegram" style="color: #808080;"></i></a>
           </div>
         </div>
       </div>

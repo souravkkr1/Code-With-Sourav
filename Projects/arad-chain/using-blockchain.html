@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/599b966433.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Css Files -->
+    <link rel="stylesheet" href="styles/navbar.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/blogs.css" />
+
+    <!-- Mobile view -->
+    <link rel="stylesheet" href="styles/mobile/navbar.css" />
+    <link rel="stylesheet" href="styles/mobile/blogs.css" />
+    <link rel="stylesheet" href="styles/mobile/footer.css" />
+
+    <!-- Tablet View -->
+    <link rel="stylesheet" href="styles/tablet/navbar.css" />
+    <link rel="stylesheet" href="styles/tablet/blogs.css" />
+    <link rel="stylesheet" href="styles/tablet/footer.css" />
+
+    <title>Using Blockchain</title>
+  </head>
+  <body>
+    <nav></nav>
+    <main>
+      <div class="article">
+        <div class="article-heading">
+          <h1>Using Blockchain to Combat Food Fraud in Agriculture</h1>
+        </div>
+        <img class="center" src="assets/blog/blog3.jpg" alt="" />
+        <div class="blog-post">
+          <p style="color: var(--primary-green)">
+            <span style="color: black">Published on:</span>
+            April 30, 2023
+            <span style="color: black; margin-left: 20px">Author: </span>Arad
+            Chain
+          </p>
+          <p>
+            Food fraud is a significant problem in the agriculture industry. It
+            involves the deliberate misrepresentation, substitution, or
+            adulteration of food products with the aim of gaining financial
+            advantage. The consequences of food fraud are not only financial but
+            can also have adverse effects on consumer health and safety.
+            Blockchain technology can provide a solution to this problem by
+            enabling quick and accurate tracking of products from farm to table.
+          </p>
+
+          <p>
+            The transparency and immutability of a blockchain make it an ideal
+            platform for tracking food products. With blockchain, each point in
+            the supply chain would have a unique identifier that is recorded and
+            tracked throughout the process, from the production stage to
+            distribution and sale. This tracking system provides a means to
+            trace the source of a product and its journey to the consumer. Such
+            traceability would allow for the identification of the origins of a
+            food product, providing consumers with confidence in the safety and
+            quality of the food they consume.
+          </p>
+
+          <p>
+            Blockchain technology can also enable real-time monitoring of
+            products at every stage of the supply chain. This monitoring would
+            involve the use of sensors and other IoT devices to collect data on
+            the product's location, temperature, humidity, and other variables.
+            These data can be recorded on the blockchain, and smart contracts
+            can be used to automate the tracking process. Automated tracking
+            reduces human error and eliminates the need for manual tracking,
+            which is prone to inaccuracies and delays.
+          </p>
+
+          <p>
+            The use of blockchain technology in the agriculture industry can
+            also reduce the prevalence of supply chain fraud, such as
+            counterfeit products or substitution of lower quality materials or
+            products. Blockchain technology can enable the implementation of a
+            trusted and secure system where supply chain actors can certify and
+            authenticate products throughout the supply chain.
+          </p>
+
+          <p>
+            The implementation of blockchain technology in agriculture supply
+            chains can bring a wide range of benefits to stakeholders, including
+            farmers, distributors, retailers, and consumers. For farmers,
+            blockchain technology would enable them to access a wider market,
+            and they would receive a fairer price for their produce.
+            Distributors and retailers would be able to track products easily
+            and respond to consumers' demand for transparency and
+            sustainability. Consumers would have confidence in the safety,
+            quality, and ethics of the food products they consume.
+          </p>
+
+          <p>
+            In conclusion, the use of blockchain technology to combat food fraud
+            in agriculture supply chains is a cost-effective and innovative
+            approach. Blockchain technology would enable quick and accurate
+            tracking of products, real-time monitoring, and reduced supply chain
+            fraud. The implementation of blockchain technology would benefit
+            stakeholders in the agriculture industry and help to build consumer
+            trust in the safety and quality of food products.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer></footer>
+
+    <script src="scripts/index.js"></script>
+    <script type="module">
+      import navbar from "./components/navbar.js";
+      const navContainer = document.querySelector("nav");
+      navContainer.innerHTML = navbar();
+
+      import footer from "./components/footer.js";
+      const footerContainer = document.querySelector("footer");
+      footerContainer.innerHTML = footer();
+    </script>
+  </body>
+</html>

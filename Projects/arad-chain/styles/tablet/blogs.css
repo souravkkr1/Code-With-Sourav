@@ -6,4 +6,12 @@
         width: 95%;
         grid-template-columns: repeat(2,1fr);
    }
+
+    /* Article Page <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<,*/
+    
+   .article{
+    /* border: 1px solid red; */
+    /* margin: 0 15px; */
+    width: 95%;
+}
 }

@@ -24,8 +24,8 @@ function navbar() {
       <div class="ham-menu">
         <ul>
           <li onClick="{closeFunc()}">X</li>
-          <li><a href="#">Home</a></li>
-          <li><a href="misison.html">Mission</a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="mission.html">Mission</a></li>
           <li><a href="registration.html">Regisration</a></li>
           <li><a href="blogs.html">News/Blogs</a></li>
           <li><a href="about.html">About</a></li>

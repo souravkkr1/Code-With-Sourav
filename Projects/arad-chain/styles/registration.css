@@ -9,8 +9,10 @@ p{
 .section3{
     /* border: 1px solid red; */
     width: 100%;
-    background-image: url(../assets/images/reg.webp);
+    background-image: url(../assets/images/banner3.png);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     /* z-index: ; */
 
@@ -22,7 +24,7 @@ p{
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: linear-gradient(360deg, #4AAB3DD9 16%, #3C9830 95%);
+    background-image: linear-gradient(360deg, #4AAB3DD9 16%, #3c9830de 95%);
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 
     /* background: -webkit-linear-gradient(top, #02110e 0%, #051c33 12%, rgba(17, 27, 37, 0.1) 89%, rgba(27, 26, 26, 0) 100%); */
@@ -60,7 +62,7 @@ p{
 }
 .reg-form > .left > h1{
     margin: 20px 0;
-    font-family: 'Rubik', sans-serif;
+    /* font-family: 'Rubik', sans-serif; */
 }
 .reg-form > .right{
     background-color: white;

@@ -33,6 +33,9 @@ footer{
     width: 30%;
     padding-right: 20px;
 }
+.footer-container > div:nth-child(1) img{
+    width: 70%;
+}
 .footer-container > div:nth-child(2){
     /* border: 1px solid white; */
     width: 20%;
@@ -85,7 +88,9 @@ a:hover{
     justify-content: space-between;
     align-items: flex-end;
 }
-.contact-btn > button{
+.contact-btn > button:hover{
+    background-color: white;
+    color: green;
 }
 .contact-btn > p{
     text-align: right;

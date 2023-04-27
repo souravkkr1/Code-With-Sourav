@@ -1,0 +1,28 @@
+@media all and (max-width:1099px){
+    .section3{
+        padding: 0 15px;
+        width: 100%;
+    }
+    .reg-form{
+        /* border: 1px solid green; */
+        width: 95%;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .reg-form > div{
+        width: 100%;
+        /* border: 1px solid blue; */
+        text-align: center;
+    }
+    .reg-form > .left{
+        padding-right: 0;
+        /* color: white; */
+    }
+    .reg-form > .left > h1{
+        margin:30px 0;
+    }
+    form{
+        border: 1px soldi red;
+        padding: 30px;
+    }
+}

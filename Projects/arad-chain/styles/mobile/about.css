@@ -1,0 +1,61 @@
+@media all and (max-width:680px) {
+    
+/* Section 3 */
+/* >>>>> Description */
+
+    .section3{
+        /* border: 1px solid red; */
+        width: 100%;
+        padding: 0 15px;
+        height: 100%;
+
+    }
+    .about-desc{
+        width: 95%;
+    }
+    .section3{
+        width: 95%;
+        margin: auto;
+    }
+    .about-desc{
+       flex-direction: column;
+       gap: 60px;
+    }
+    .desc-left{
+        padding: 0;
+    }
+    .about-desc > div{
+       width: 100%;
+       text-align: center;
+       
+    }
+    .desc-right{
+        width: 100%;
+        height: 300px;
+    }
+
+    /* Section 4 */
+    /* >>>> Our Goal */
+
+    .our-goal{
+        width: 95%;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+ /* Section 5 */
+/* >>>> Our Team */
+    .our-team{
+        width: 95%;
+        padding: 0 40px;
+    }
+    .our-team > .bottom{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .our-team > .bottom > div > img{
+        width: 83%;
+    }
+}

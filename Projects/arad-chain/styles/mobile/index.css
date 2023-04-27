@@ -13,7 +13,7 @@
         /* padding: 0 20px; */
     }
     .enhanced .watch{
-    margin: 30px;
+        margin: 30px;
     }
     .enhanced-content{
         flex-direction: column;
@@ -100,8 +100,13 @@
     .section5{
         padding: 0 15px;
     }
-    .top{
-        grid-template-columns: repeat(1, 1fr);
+    .section5 .top{
+        flex-direction: column;
+        text-align: center;
+        /* grid-template-columns: repeat(1, 1fr); */
+    }
+    .section5 .top > div{
+        width: 100%;
     }
     .discover{
         width: 95%;
@@ -125,6 +130,8 @@
     }
     .benefit{
         width: 95%;
+        text-align: center;
+
     }
     .benefit > .bottom{
         flex-direction: column;

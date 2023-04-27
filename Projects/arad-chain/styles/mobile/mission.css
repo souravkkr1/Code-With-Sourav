@@ -1,0 +1,42 @@
+@media all and (max-width:680px){
+    .section3, .section4, .section5{
+        padding: 0 15px;
+    }
+    .mission-content, .vision-content{
+        width: 95%;
+    }
+    .mission-content, .vision-content{
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .vision-content{
+        /* justify-content: flexend; */
+        flex-direction: column-reverse;
+    }
+    .mission-content > .left, .vision-content > .right{
+        /* border: 1px solid red; */
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .mission-content > .left, .vision-content > .right{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .mission-content > .left > div:first-child, .vision-content > .right >  div:first-child{
+        /* border: 1px solid green; */
+        border-bottom: 10px solid var(--primary-green);
+        border-left: 0;
+        text-align: center;
+        padding-right:30px ;
+    }
+    .mission-content > .right,  .vision-content > .left{
+        width: 100%;
+    }
+    .mission-content > .right > img, .vision-content > .left > img{
+        width: 100%;
+        border-radius: 10px;
+    }
+}

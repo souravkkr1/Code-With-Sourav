@@ -189,3 +189,32 @@ function openFunc() {
     let menu = document.querySelector(".ham-menu")
     menu.style.display = "block";
 }
+
+
+// Youtube Video
+// function openPopup() {
+//     document.getElementById("popup").style.display = "flex";
+// }
+
+// function closePopup() {
+//     document.getElementById("popup").style.display = "none";
+// }
+
+
+// $('a.stop-video').click(function () {
+//     $("#popup").hide();
+//     $('.youtube-video')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
+// });
+
+function openPopup() {
+    document.getElementById("popup").style.display = "flex";
+}
+
+$('a.stop-video').click(function () {
+    $("#popup").hide();
+    $('.youtube-video')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
+});
+
+
+
+

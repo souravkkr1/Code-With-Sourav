@@ -1,0 +1,33 @@
+@media all and (min-width:681px) and (max-width:1099px) {
+    .section3{
+        padding: 0 15px;
+    }
+    .about-desc{
+        width: 95%;
+    }
+
+    /* Section 4 */
+    /* >>>> Our Goal */
+
+    .our-goal{
+        width: 95%;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+/* Section 5 */
+/* >>>> Our Team */
+    .our-team{
+        width: 95%;
+    }
+    .our-team > .bottom{
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    .our-team > .bottom > div > img{
+        width: 87%;
+    }
+}

@@ -194,13 +194,76 @@
 
 /* Section 7 */
 /* >>>> Blogposts */   
-.section7{
-    border: 1px solid var(--primary-green);
-    width: 100%;
-    padding: 0 15px;
-}
-.section7 h1{
-    width: 95%;
+    .section7{
+        border: 1px solid var(--primary-green);
+        width: 100%;
+        padding: 0 15px;
+    }
+    .section7 h1{
+        width: 95%;
+    }
+
 }
 
+
+
+@media all and (min-width:681px) and (max-width:1099px) {
+ /* Section 4 */
+/* >>>>> Roadmap */
+    .section4{
+        padding: 0 35px;
+    }
+    .roadmap{
+        width: 95%;
+        margin: auto;
+    }
+    .roadmap-heading{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .timeline {
+        margin: 5px 0px;
+    }
+    /* Line */
+    .timeline::before{
+        left: 1px;
+        height: 99%;
+        width: 5px;
+    }
+    /* Circle */
+    .timeline > ul > li:before {
+        content: "";
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background-color: #329e28;
+        border-radius: 50%;
+        transition: 0.5s;
+        left: -7px;
+    } 
+    .timeline > ul > li .time {
+        /* position: absolute; */
+        text-align: center;
+        /* padding-left: 5px; */
+        box-shadow: 0px 0px 0px 1px;
+        /* margin-top: -15px; */
+        left: 40px;
+    }
+    .content1{
+        /* padding-top: 80px; */
+        margin-bottom: 73px;
+        top: 60px;
+        width: 95%;
+        left: 9%;
+    }
+
+    /* Section 7 */
+    .section7{
+        border: 1px solid var(--primary-green);
+        width: 100%;
+        padding: 0 15px;
+    }
+    .section7 h1{
+        width: 95%;
+    }
 }

@@ -52,6 +52,11 @@ p{
     /* font-weight: 800; */
     cursor: pointer;
     font-size: 15px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+.green-btn:hover{
+    background-color: black;
+    color: white;
 }
 .white-btn{
     padding: 15px 30px;
@@ -62,6 +67,11 @@ p{
     /* font-weight: 500; */
     cursor: pointer;
     font-size: 15px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+.white-btn:hover{
+    background-color: green;
+    color: white;
 }
 .black-btn{
     padding: 15px 30px;
@@ -72,6 +82,7 @@ p{
     /* font-weight: 500; */
     cursor: pointer;
     font-size: 15px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
 .blackWhite-btn{
     padding: 15px 30px;
@@ -83,6 +94,7 @@ p{
     /* font-weight: 500; */
     cursor: pointer;
     font-size: 15px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
 
 /* Section 1 */
@@ -91,8 +103,10 @@ p{
 .section1-jumbo{
      /* border: 1px solid red; */
      width: 100%;
-     background-image: url(../assets/images/reg.webp);
+     background-image: url(../assets/images/slide2.jpeg);
      background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
      position: relative;
      height: 300px;
      padding: 10px 0;
@@ -128,6 +142,7 @@ p{
     font-weight: 500;
     position: relative;
     z-index: 2;
+    text-align: center;
 }
 
 /* Section 2 */
@@ -162,12 +177,12 @@ p{
 #ham-icon{
     /* border: 1px solid red; */
     display: none;
-    color: balck;
+    color: black;
 }
 /* Ham Menu */
 .ham-menu{
     color: black;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     display: none;
 }
 nav{
@@ -182,7 +197,7 @@ nav{
 .navbar{
     /* border: 1px solid green; */
     height: 100%;
-    max-width: 1100px;
+    width: 1100px;
     margin: auto;
     display:flex;
     justify-content: space-between;

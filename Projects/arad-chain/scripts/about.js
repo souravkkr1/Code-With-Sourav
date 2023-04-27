@@ -15,50 +15,49 @@ const team = [
         name: "Sayyid M Hasan",
         role: "Financial Advisor/ CFO",
         image: "assets/team/mansoobHasan.jpg",
-        linkedin: ""
+        linkedin: "#"
     },
     {
         name: "Azim BaiG",
         role: "Blockchain Developer",
         image: "assets/team/azimBaig.jpg",
-        linkedin: ""
+        linkedin: "#"
     },
     {
         name: "Arslan Haq",
         role: "Graphic Designer",
         image: "assets/team/arslanHaq.jpg",
-        linkedin: ""
+        linkedin: "#"
     },
     {
         name: "Ibrahim Abdullah",
         role: "Javascript Developer/ Web Developer",
         image: "assets/team/ibrahimAbdullah.jpg",
-        linkedin: ""
+        linkedin: "#"
     },
     {
         name: "Tayyaba Khalil",
         role: "Project Manager/ Backend Engineer",
         image: "assets/team/tayyabaKhalil.jpg",
-        linkedin: ""
+        linkedin: "#"
     },
     {
         name: "Abdur Rehman",
         role: "Quality Assurance",
         image: "assets/team/abdurRehman.jpeg",
-        linkedin: ""
+        linkedin: "#"
     },
     {
         name: "Sachin Salvi",
         role: "SMM Manager",
         image: "assets/team/sachin.jpg",
-        linkedin: ""
+        linkedin: "#"
     },
 ]
 
 let teamPhotosContainer = document.querySelector(".bottom");
 team.forEach((ele) => {
     let box = document.createElement("div");
-    box.className = "animate__animated animate__bounce"
 
     let image = document.createElement("img");
     image.src = ele.image;
@@ -69,10 +68,11 @@ team.forEach((ele) => {
     let role = document.createElement("p");
     role.innerText = ele.role
 
-    let social = document.createElement("div");
+    let social = document.createElement("a");
+    social.href = ele.linkedin
     let linkedin = document.createElement("i");
     linkedin.className = "fa-brands fa-linkedin";
-    linkedin.style.color = "#0a66c2"
+    linkedin.style.color = "#0072b1"
 
     social.append(linkedin);
     content.append(name, role, social);

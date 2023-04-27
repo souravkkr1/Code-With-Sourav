@@ -7,6 +7,23 @@
     <link rel="stylesheet" href="styles/navbar.css" />
     <link rel="stylesheet" href="styles/footer.css" />
     <link rel="stylesheet" href="styles/registration.css" />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/599b966433.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Mobile view -->
+    <link rel="stylesheet" href="styles/mobile/navbar.css" />
+    <link rel="stylesheet" href="styles/mobile/registration.css" />
+    <link rel="stylesheet" href="styles/mobile/footer.css" />
+
+    <!-- Tablet View -->
+    <link rel="stylesheet" href="styles/tablet/navbar.css" />
+    <link rel="stylesheet" href="styles/tablet/registration.css" />
+    <link rel="stylesheet" href="styles/tablet/footer.css" />
+
     <title>Registration</title>
   </head>
   <body>
@@ -47,11 +64,11 @@
             </p>
           </div>
           <div class="right">
-            <form>
+            <form method="post" autocomplete="off" name="google-sheet">
               <h2>Register now</h2>
-              <input type="text" placeholder="Full Name" />
-              <input type="tel" placeholder="Phone Number" />
-              <input type="email" placeholder="Email" />
+              <input type="text" name="Name" placeholder="Full Name" />
+              <input type="tel" name="Phone" placeholder="Phone Number" />
+              <input type="email" name="Email" placeholder="Email" />
               <input class="black-btn" type="submit" value="Register Now" />
             </form>
           </div>
@@ -59,6 +76,8 @@
       </div>
     </main>
     <footer></footer>
+
+    <script src="scripts/index.js"></script>
 
     <script type="module">
       import navbar from "./components/navbar.js";
@@ -68,6 +87,20 @@
       import footer from "./components/footer.js";
       const container = document.querySelector("footer");
       container.innerHTML = footer();
+    </script>
+
+    <!-- Google SpreadSheet -->
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbztB5yP_Z1EAaHmQNgIGgpuSflOuh_HTDd2o5H0q-QVVAj2vub0CW5iS25I-OsblivB/exec";
+      const form = document.forms["google-sheet"];
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => alert("Registration Successfull"))
+          .catch((error) => console.error("Error!", error.message));
+      });
     </script>
   </body>
 </html>

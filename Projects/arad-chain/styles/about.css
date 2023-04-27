@@ -26,7 +26,10 @@
 .desc-right{
     /* border: 1px solid green; */
     width: 50%;
-    background-image: url(../assets/images/about.jpeg);
+    background-image: url(../assets/images/about.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 10px;
 }
 
@@ -44,7 +47,7 @@
     color: white;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 .our-goal > h1{
     border-left: 10px solid var(--primary-green);
@@ -71,6 +74,7 @@
 }
 .our-team > .bottom{
     /* border: 1px solid black; */
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 80px;
@@ -79,7 +83,6 @@
 }
 .our-team > .bottom > div {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-
     /* text-align: center; */
     display: flex;
     align-items: center;
@@ -87,7 +90,6 @@
     flex-direction: column;
     gap: 20px;
     border-radius: 10px;
-
 }
 .our-team > .bottom > div > img{
     width: 80%;
@@ -98,6 +100,13 @@
     /* border: 1px solid red; */
     text-align: center;
     margin-bottom: 20px;
+}
+.our-team > .bottom > div > div i{
+    font-size: 23px;
+    visibility: hidden;
+}
+.our-team > .bottom > div:nth-child(1) > div i, .our-team > .bottom > div:nth-child(2) > div i{
+    visibility: visible;
 }
 
 

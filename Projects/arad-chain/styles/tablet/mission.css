@@ -1,0 +1,16 @@
+@media all and (min-width:680px) and (max-width:1099px) {
+    .section3, .section4, .section5{
+        padding: 0 15px;
+    }
+    .mission-content, .vision-content{
+        width: 95%;
+    }
+    .mission-content > .right > img, .vision-content > .left > img{
+        width: 100%;
+        height: auto;
+    }
+    .mission-content, .vision-content{
+        align-items: center;
+
+    }
+}

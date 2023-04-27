@@ -1,0 +1,10 @@
+
+@media all and (min-width:681px) and (max-width:1099px) {
+    .slide-container{
+        max-width: 95%;
+      }
+    .slide-content{
+        width: 80%;
+        margin-left: 10%;
+    }
+ }
